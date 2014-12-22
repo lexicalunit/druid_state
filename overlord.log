@@ -1,301 +1,166 @@
-2014-12-22 17:45:11,767 INFO [main] io.druid.guice.PropertiesModule - Loading properties from runtime.properties
-2014-12-22 17:45:11,806 INFO [main] org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.0.1.Final
-2014-12-22 17:45:12,359 INFO [main] io.druid.guice.JsonConfigurator - Loaded class[class io.druid.guice.ExtensionsConfig] from props[druid.extensions.] as [ExtensionsConfig{searchCurrentClassloader=true, coordinates=[io.druid.extensions:druid-s3-extensions:0.6.160], localRepository='/home/druid/.m2/repository', remoteRepositories=[http://repo1.maven.org/maven2/, https://metamx.artifactoryonline.com/metamx/pub-libs-releases-local]}]
-2014-12-22 17:45:12,490 INFO [main] io.druid.initialization.Initialization - Loading extension[io.druid.extensions:druid-s3-extensions:0.6.160] for class[io.druid.cli.CliCommandCreator]
-2014-12-22 17:45:12,887 INFO [main] io.druid.initialization.Initialization - Added URL[file:/home/druid/.m2/repository/io/druid/extensions/druid-s3-extensions/0.6.160/druid-s3-extensions-0.6.160.jar]
-2014-12-22 17:45:12,888 INFO [main] io.druid.initialization.Initialization - Added URL[file:/home/druid/.m2/repository/net/java/dev/jets3t/jets3t/0.9.1/jets3t-0.9.1.jar]
-2014-12-22 17:45:12,888 INFO [main] io.druid.initialization.Initialization - Added URL[file:/home/druid/.m2/repository/commons-codec/commons-codec/1.7/commons-codec-1.7.jar]
-2014-12-22 17:45:12,888 INFO [main] io.druid.initialization.Initialization - Added URL[file:/home/druid/.m2/repository/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13.jar]
-2014-12-22 17:45:12,888 INFO [main] io.druid.initialization.Initialization - Added URL[file:/home/druid/.m2/repository/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13.jar]
-2014-12-22 17:45:12,888 INFO [main] io.druid.initialization.Initialization - Added URL[file:/home/druid/.m2/repository/javax/activation/activation/1.1.1/activation-1.1.1.jar]
-2014-12-22 17:45:12,888 INFO [main] io.druid.initialization.Initialization - Added URL[file:/home/druid/.m2/repository/mx4j/mx4j/3.0.2/mx4j-3.0.2.jar]
-2014-12-22 17:45:12,888 INFO [main] io.druid.initialization.Initialization - Added URL[file:/home/druid/.m2/repository/javax/mail/mail/1.4.7/mail-1.4.7.jar]
-2014-12-22 17:45:12,888 INFO [main] io.druid.initialization.Initialization - Added URL[file:/home/druid/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar]
-2014-12-22 17:45:12,888 INFO [main] io.druid.initialization.Initialization - Added URL[file:/home/druid/.m2/repository/org/bouncycastle/bcprov-jdk15/1.46/bcprov-jdk15-1.46.jar]
-2014-12-22 17:45:12,889 INFO [main] io.druid.initialization.Initialization - Added URL[file:/home/druid/.m2/repository/com/jamesmurty/utils/java-xmlbuilder/0.4/java-xmlbuilder-0.4.jar]
-2014-12-22 17:45:12,889 INFO [main] io.druid.initialization.Initialization - Added URL[file:/home/druid/.m2/repository/com/amazonaws/aws-java-sdk/1.6.0.1/aws-java-sdk-1.6.0.1.jar]
-2014-12-22 17:45:12,889 INFO [main] io.druid.initialization.Initialization - Added URL[file:/home/druid/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.2.3/jackson-core-2.2.3.jar]
-2014-12-22 17:45:12,889 INFO [main] io.druid.initialization.Initialization - Added URL[file:/home/druid/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.2.3/jackson-annotations-2.2.3.jar]
-2014-12-22 17:45:12,889 INFO [main] io.druid.initialization.Initialization - Added URL[file:/home/druid/.m2/repository/org/apache/httpcomponents/httpclient/4.2/httpclient-4.2.jar]
-2014-12-22 17:45:12,889 INFO [main] io.druid.initialization.Initialization - Added URL[file:/home/druid/.m2/repository/org/apache/httpcomponents/httpcore/4.2/httpcore-4.2.jar]
-2014-12-22 17:45:12,889 INFO [main] io.druid.initialization.Initialization - Added URL[file:/home/druid/.m2/repository/com/metamx/emitter/0.2.11/emitter-0.2.11.jar]
-2014-12-22 17:45:12,889 INFO [main] io.druid.initialization.Initialization - Added URL[file:/home/druid/.m2/repository/com/metamx/http-client/0.9.6/http-client-0.9.6.jar]
-2014-12-22 17:45:12,889 INFO [main] io.druid.initialization.Initialization - Added URL[file:/home/druid/.m2/repository/io/netty/netty/3.9.0.Final/netty-3.9.0.Final.jar]
-2014-12-22 17:45:12,889 INFO [main] io.druid.initialization.Initialization - Added URL[file:/home/druid/.m2/repository/log4j/log4j/1.2.16/log4j-1.2.16.jar]
-2014-12-22 17:45:12,890 INFO [main] io.druid.initialization.Initialization - Added URL[file:/home/druid/.m2/repository/com/google/guava/guava/16.0.1/guava-16.0.1.jar]
-2014-12-22 17:45:12,890 INFO [main] io.druid.initialization.Initialization - Added URL[file:/home/druid/.m2/repository/commons-io/commons-io/2.0.1/commons-io-2.0.1.jar]
-2014-12-22 17:45:13,074 INFO [main] io.druid.initialization.Initialization - Loading extension[io.druid.extensions:druid-s3-extensions:0.6.160] for class[io.druid.initialization.DruidModule]
-2014-12-22 17:45:13,155 INFO [main] io.druid.initialization.Initialization - Adding extension module[class io.druid.storage.s3.S3StorageDruidModule] for class[io.druid.initialization.DruidModule]
-2014-12-22 17:45:13,156 INFO [main] io.druid.initialization.Initialization - Adding extension module[class io.druid.firehose.s3.S3FirehoseDruidModule] for class[io.druid.initialization.DruidModule]
-2014-12-22 17:45:13,616 INFO [main] io.druid.guice.JsonConfigurator - Loaded class[class com.metamx.emitter.core.LoggingEmitterConfig] from props[druid.emitter.logging.] as [LoggingEmitterConfig{loggerClass='com.metamx.emitter.core.LoggingEmitter', logLevel='debug'}]
-2014-12-22 17:45:13,627 INFO [main] io.druid.guice.JsonConfigurator - Loaded class[class io.druid.db.DbConnectorConfig] from props[druid.db.connector.] as [DbConnectorConfig{createTables=true, connectURI='jdbc:mysql://<rds hostname>:3306/druid', user='druid', password=****, useValidationQuery=false, validationQuery='SELECT 1'}]
-2014-12-22 17:45:13,640 INFO [main] io.druid.guice.JsonConfigurator - Loaded class[class io.druid.db.DbTablesConfig] from props[druid.db.tables.] as [io.druid.db.DbTablesConfig@36dce7ed]
-2014-12-22 17:45:13,750 INFO [main] io.druid.guice.JsonConfigurator - Loaded class[class io.druid.common.config.ConfigManagerConfig] from props[druid.manager.config.] as [io.druid.common.config.ConfigManagerConfig@503fbbc6]
-2014-12-22 17:45:13,774 INFO [main] io.druid.guice.JsonConfigurator - Loaded class[class io.druid.server.metrics.DruidMonitorSchedulerConfig] from props[druid.monitoring.] as [io.druid.server.metrics.DruidMonitorSchedulerConfig@46044faa]
-2014-12-22 17:45:13,804 INFO [main] com.metamx.metrics.SysMonitor - Loading sigar native lib at tmpPath[/tmp/yay3467123038545770090yay/libsigar-amd64-linux.so]
-2014-12-22 17:45:13,808 INFO [main] io.druid.guice.JsonConfigurator - Loaded class[class io.druid.server.metrics.MonitorsConfig] from props[druid.monitoring.] as [MonitorsConfig{monitors=[class com.metamx.metrics.SysMonitor, class com.metamx.metrics.JvmMonitor]}]
-2014-12-22 17:45:13,825 INFO [main] io.druid.guice.JsonConfigurator - Loaded class[class io.druid.server.DruidNode] from props[druid.] as [DruidNode{serviceName='druid-overlord', host='<overlord hostname>:8080', port=8080}]
-2014-12-22 17:45:13,842 INFO [main] io.druid.server.metrics.MetricsModule - Adding monitor[com.metamx.metrics.SysMonitor@78c7f9b3]
-2014-12-22 17:45:13,844 INFO [main] io.druid.server.metrics.MetricsModule - Adding monitor[com.metamx.metrics.JvmMonitor@4d6f623d]
-2014-12-22 17:45:13,908 INFO [main] io.druid.guice.JsonConfigurator - Loaded class[class io.druid.server.initialization.ServerConfig] from props[druid.server.http.] as [io.druid.server.initialization.ServerConfig@2bc12da]
-2014-12-22 17:45:13,916 INFO [main] org.eclipse.jetty.util.log - Logging initialized @2717ms
-2014-12-22 17:45:13,999 INFO [main] io.druid.guice.JsonConfigurator - Loaded class[class io.druid.indexing.overlord.config.TaskQueueConfig] from props[druid.indexer.queue.] as [io.druid.indexing.overlord.config.TaskQueueConfig@2687f956]
-2014-12-22 17:45:14,004 INFO [main] io.druid.guice.JsonConfigurator - Loaded class[class io.druid.indexing.common.config.TaskStorageConfig] from props[druid.indexer.storage.] as [io.druid.indexing.common.config.TaskStorageConfig@63e5e5b4]
-2014-12-22 17:45:14,007 INFO [main] org.skife.config.ConfigurationObjectFactory - Using method itself for [druid.zk.paths.base] on [io.druid.server.initialization.ZkPathsConfig
-2014-12-22 17:45:14,009 INFO [main] org.skife.config.ConfigurationObjectFactory - Using method itself for [druid.zk.paths.propertiesPath] on [io.druid.server.initialization.ZkPathsConfig
-2014-12-22 17:45:14,009 INFO [main] org.skife.config.ConfigurationObjectFactory - Using method itself for [druid.zk.paths.loadQueuePath] on [io.druid.server.initialization.ZkPathsConfig
-2014-12-22 17:45:14,010 INFO [main] org.skife.config.ConfigurationObjectFactory - Using method itself for [druid.zk.paths.coordinatorPath] on [io.druid.server.initialization.ZkPathsConfig
-2014-12-22 17:45:14,010 INFO [main] org.skife.config.ConfigurationObjectFactory - Using method itself for [druid.zk.paths.connectorPath] on [io.druid.server.initialization.ZkPathsConfig
-2014-12-22 17:45:14,010 INFO [main] org.skife.config.ConfigurationObjectFactory - Using method itself for [druid.zk.paths.indexer.announcementsPath] on [io.druid.server.initialization.ZkPathsConfig
-2014-12-22 17:45:14,010 INFO [main] org.skife.config.ConfigurationObjectFactory - Using method itself for [druid.zk.paths.indexer.tasksPath] on [io.druid.server.initialization.ZkPathsConfig
-2014-12-22 17:45:14,010 INFO [main] org.skife.config.ConfigurationObjectFactory - Using method itself for [druid.zk.paths.indexer.statusPath] on [io.druid.server.initialization.ZkPathsConfig
-2014-12-22 17:45:14,010 INFO [main] org.skife.config.ConfigurationObjectFactory - Using method itself for [druid.zk.paths.indexer.leaderLatchPath] on [io.druid.server.initialization.ZkPathsConfig
-2014-12-22 17:45:14,010 INFO [main] org.skife.config.ConfigurationObjectFactory - Using method itself for [druid.zk.paths.liveSegmentsPath] on [io.druid.server.initialization.ZkPathsConfig
-2014-12-22 17:45:14,010 INFO [main] org.skife.config.ConfigurationObjectFactory - Using method itself for [druid.zk.paths.servedSegmentsPath] on [io.druid.server.initialization.ZkPathsConfig
-2014-12-22 17:45:14,010 INFO [main] org.skife.config.ConfigurationObjectFactory - Using method itself for [druid.zk.paths.announcementsPath] on [io.druid.server.initialization.ZkPathsConfig
-2014-12-22 17:45:14,088 INFO [main] org.skife.config.ConfigurationObjectFactory - Assigning value [<zookeeper 1 hostname>,<zookeeper 2 hostname>,<zookeeper 3 hostname>] for [druid.zk.service.host] on [io.druid.curator.CuratorConfig
-2014-12-22 17:45:14,088 INFO [main] org.skife.config.ConfigurationObjectFactory - Assigning default value [30000] for [druid.zk.service.sessionTimeoutMs] on [io.druid.curator.CuratorConfig
-2014-12-22 17:45:14,088 INFO [main] org.skife.config.ConfigurationObjectFactory - Assigning default value [false] for [druid.curator.compress] on [io.druid.curator.CuratorConfig
-2014-12-22 17:45:14,100 WARN [main] org.apache.curator.retry.ExponentialBackoffRetry - maxRetries too large (30). Pinning to 29
-2014-12-22 17:45:14,159 INFO [main] io.druid.guice.JsonConfigurator - Loaded class[class io.druid.indexing.overlord.config.RemoteTaskRunnerConfig] from props[druid.indexer.runner.] as [io.druid.indexing.overlord.config.RemoteTaskRunnerConfig@1f38957]
-2014-12-22 17:45:14,163 INFO [main] io.druid.guice.JsonConfigurator - Loaded class[class io.druid.guice.http.DruidHttpClientConfig] from props[druid.global.http.] as [io.druid.guice.http.DruidHttpClientConfig@64aad6db]
-2014-12-22 17:45:14,237 INFO [main] io.druid.guice.JsonConfigurator - Loaded class[class io.druid.indexing.overlord.scaling.SimpleResourceManagementConfig] from props[druid.indexer.autoscale.] as [io.druid.indexing.overlord.scaling.SimpleResourceManagementConfig@1a28aef1]
-2014-12-22 17:45:14,238 INFO [main] io.druid.common.config.ConfigManager - Creating watch for key[worker.setup]
-2014-12-22 17:45:14,276 INFO [main] io.druid.guice.JsonConfigurator - Loaded class[class io.druid.indexing.overlord.scaling.ResourceManagementSchedulerConfig] from props[druid.indexer.autoscale.] as [io.druid.indexing.overlord.scaling.ResourceManagementSchedulerConfig@67b7c170]
-2014-12-22 17:45:14,280 INFO [main] io.druid.guice.JsonConfigurator - Loaded class[class io.druid.server.initialization.CuratorDiscoveryConfig] from props[druid.discovery.curator.] as [io.druid.server.initialization.CuratorDiscoveryConfig@327c7bea]
-2014-12-22 17:45:14,456 INFO [main] com.metamx.common.lifecycle.Lifecycle$AnnotationBasedHandler - Invoking start method[public void com.metamx.emitter.core.LoggingEmitter.start()] on object[com.metamx.emitter.core.LoggingEmitter@4e93dcb9].
-2014-12-22 17:45:14,766 INFO [main] io.druid.db.DbConnector - Table[druid_config] existed: [[{tables_in_druid (druid_config)=druid_config}]]
-2014-12-22 17:45:14,767 INFO [main] com.metamx.common.lifecycle.Lifecycle$AnnotationBasedHandler - Invoking start method[public void io.druid.common.config.ConfigManager.start()] on object[io.druid.common.config.ConfigManager@64968732].
-2014-12-22 17:45:14,771 INFO [main] com.metamx.common.lifecycle.Lifecycle$AnnotationBasedHandler - Invoking start method[public void com.metamx.emitter.service.ServiceEmitter.start()] on object[com.metamx.emitter.service.ServiceEmitter@54f4a7f0].
-2014-12-22 17:45:14,772 INFO [main] com.metamx.common.lifecycle.Lifecycle$AnnotationBasedHandler - Invoking start method[public void com.metamx.metrics.MonitorScheduler.start()] on object[com.metamx.metrics.MonitorScheduler@61a1ea2c].
-2014-12-22 17:45:14,773 INFO [main] io.druid.curator.CuratorModule - Starting Curator
-2014-12-22 17:45:14,773 INFO [main] org.apache.curator.framework.imps.CuratorFrameworkImpl - Starting
-2014-12-22 17:45:14,782 INFO [main] org.apache.zookeeper.ZooKeeper - Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
-2014-12-22 17:45:14,782 INFO [main] org.apache.zookeeper.ZooKeeper - Client environment:host.name=<overlord hostname>
-2014-12-22 17:45:14,782 INFO [main] org.apache.zookeeper.ZooKeeper - Client environment:java.version=1.8.0_20
-2014-12-22 17:45:14,782 INFO [main] org.apache.zookeeper.ZooKeeper - Client environment:java.vendor=Oracle Corporation
-2014-12-22 17:45:14,782 INFO [main] org.apache.zookeeper.ZooKeeper - Client environment:java.home=/usr/java/jdk1.8.0_20/jre
-2014-12-22 17:45:14,782 INFO [main] org.apache.zookeeper.ZooKeeper - Client environment:java.class.path=/usr/local/druid-services/lib/jackson-jaxrs-json-provider-2.2.3.jar:/usr/local/druid-services/lib/icu4j-4.8.1.jar:/usr/local/druid-services/lib/tesla-aether-0.0.5.jar:/usr/local/druid-services/lib/google-http-client-1.15.0-rc.jar:/usr/local/druid-services/lib/maven-settings-builder-3.1.1.jar:/usr/local/druid-services/lib/asm-3.1.jar:/usr/local/druid-services/lib/aopalliance-1.0.jar:/usr/local/druid-services/lib/curator-client-2.6.0.jar:/usr/local/druid-services/lib/irc-api-1.0-0011.jar:/usr/local/druid-services/lib/okhttp-1.0.2.jar:/usr/local/druid-services/lib/curator-recipes-2.6.0.jar:/usr/local/druid-services/lib/maven-repository-metadata-3.1.1.jar:/usr/local/druid-services/lib/maven-model-builder-3.1.1.jar:/usr/local/druid-services/lib/bcprov-jdk15-1.46.jar:/usr/local/druid-services/lib/jetty-io-9.2.3.v20140905.jar:/usr/local/druid-services/lib/plexus-interpolation-1.19.jar:/usr/local/druid-services/lib/jetty-proxy-9.2.3.v20140905.jar:/usr/local/druid-services/lib/maven-settings-3.1.1.jar:/usr/local/druid-services/lib/aether-impl-0.9.0.M2.jar:/usr/local/druid-services/lib/server-metrics-0.0.9.jar:/usr/local/druid-services/lib/wagon-provider-api-2.4.jar:/usr/local/druid-services/lib/commons-cli-1.2.jar:/usr/local/druid-services/lib/mysql-connector-java-5.1.18.jar:/usr/local/druid-services/lib/alphanum-1.0.3.jar:/usr/local/druid-services/lib/maven-aether-provider-3.1.1.jar:/usr/local/druid-services/lib/java-util-0.26.9.jar:/usr/local/druid-services/lib/zookeeper-3.4.6.jar:/usr/local/druid-services/lib/mail-1.4.7.jar:/usr/local/druid-services/lib/guice-multibindings-4.0-beta.jar:/usr/local/druid-services/lib/jackson-module-jaxb-annotations-2.2.3.jar:/usr/local/druid-services/lib/xpp3-1.1.4c.jar:/usr/local/druid-services/lib/druid-processing-0.6.160.jar:/usr/local/druid-services/lib/jetty-servlets-9.2.3.v20140905.jar:/usr/local/druid-services/lib/spymemcached-2.8.4.jar:/usr/local/druid-services/lib/jersey-guice-1.17.1.jar:/usr/local/druid-services/lib/druid-indexing-hadoop-0.6.160.jar:/usr/local/druid-services/lib/jersey-core-1.17.1.jar:/usr/local/druid-services/lib/hibernate-validator-5.0.1.Final.jar:/usr/local/druid-services/lib/jackson-core-asl-1.9.13.jar:/usr/local/druid-services/lib/commons-pool-1.6.jar:/usr/local/druid-services/lib/compress-lzf-0.8.4.jar:/usr/local/druid-services/lib/validation-api-1.1.0.Final.jar:/usr/local/druid-services/lib/jackson-mapper-asl-1.9.13.jar:/usr/local/druid-services/lib/slf4j-api-1.6.4.jar:/usr/local/druid-services/lib/protobuf-java-2.5.0.jar:/usr/local/druid-services/lib/aether-api-0.9.0.M2.jar:/usr/local/druid-services/lib/jersey-servlet-1.17.1.jar:/usr/local/druid-services/lib/jackson-datatype-joda-2.2.3.jar:/usr/local/druid-services/lib/jackson-datatype-guava-2.2.3.jar:/usr/local/druid-services/lib/httpcore-4.2.jar:/usr/local/druid-services/lib/jetty-continuation-9.2.3.v20140905.jar:/usr/local/druid-services/lib/bytebuffer-collections-0.0.4.jar:/usr/local/druid-services/lib/sigar-1.6.5.132.jar:/usr/local/druid-services/lib/netty-3.9.0.Final.jar:/usr/local/druid-services/lib/jetty-security-9.2.3.v20140905.jar:/usr/local/druid-services/lib/jetty-http-9.2.3.v20140905.jar:/usr/local/druid-services/lib/rhino-1.7R4.jar:/usr/local/druid-services/lib/guice-4.0-beta.jar:/usr/local/druid-services/lib/jackson-databind-2.2.3.jar:/usr/local/druid-services/lib/google-http-client-jackson2-1.15.0-rc.jar:/usr/local/druid-services/lib/jackson-dataformat-smile-2.2.3.jar:/usr/local/druid-services/lib/org.abego.treelayout.core-1.0.1.jar:/usr/local/druid-services/lib/jline-0.9.94.jar:/usr/local/druid-services/lib/commons-logging-1.1.1.jar:/usr/local/druid-services/lib/druid-api-0.2.14.1.jar:/usr/local/druid-services/lib/maxminddb-0.2.0.jar:/usr/local/druid-services/lib/http-client-0.9.6.jar:/usr/local/druid-services/lib/jetty-util-9.2.3.v20140905.jar:/usr/local/druid-services/lib/druid-services-0.6.160.jar:/usr/local/druid-services/lib/commons-codec-1.7.jar:/usr/local/druid-services/lib/aether-spi-0.9.0.M2.jar:/usr/local/druid-services/lib/jetty-server-9.2.3.v20140905.jar:/usr/local/druid-services/lib/activation-1.1.1.jar:/usr/local/druid-services/lib/guava-16.0.1.jar:/usr/local/druid-services/lib/classmate-0.8.0.jar:/usr/local/druid-services/lib/geoip2-0.4.0.jar:/usr/local/druid-services/lib/log4j-1.2.16.jar:/usr/local/druid-services/lib/extendedset-1.3.7.jar:/usr/local/druid-services/lib/druid-indexing-service-0.6.160.jar:/usr/local/druid-services/lib/jdbi-2.32.jar:/usr/local/druid-services/lib/guice-servlet-4.0-beta.jar:/usr/local/druid-services/lib/jackson-jaxrs-smile-provider-2.2.3.jar:/usr/local/druid-services/lib/config-magic-0.9.jar:/usr/local/druid-services/lib/lz4-1.1.2.jar:/usr/local/druid-services/lib/httpclient-4.2.jar:/usr/local/druid-services/lib/commons-io-2.0.1.jar:/usr/local/druid-services/lib/java-xmlbuilder-0.4.jar:/usr/local/druid-services/lib/jetty-client-9.2.3.v20140905.jar:/usr/local/druid-services/lib/curator-x-discovery-2.6.0.jar:/usr/local/druid-services/lib/druid-common-0.6.160.jar:/usr/local/druid-services/lib/javax.inject-1.jar:/usr/local/druid-services/lib/jsr305-2.0.1.jar:/usr/local/druid-services/lib/druid-server-0.6.160.jar:/usr/local/druid-services/lib/aether-connector-file-0.9.0.M2.jar:/usr/local/druid-services/lib/aether-util-0.9.0.M2.jar:/usr/local/druid-services/lib/slf4j-log4j12-1.6.2.jar:/usr/local/druid-services/lib/aws-java-sdk-1.6.0.1.jar:/usr/local/druid-services/lib/airline-0.6.jar:/usr/local/druid-services/lib/javax.servlet-api-3.1.0.jar:/usr/local/druid-services/lib/opencsv-2.3.jar:/usr/local/druid-services/lib/mx4j-3.0.2.jar:/usr/local/druid-services/lib/aether-connector-okhttp-0.0.9.jar:/usr/local/druid-services/lib/jackson-core-2.2.3.jar:/usr/local/druid-services/lib/javax.el-3.0.0.jar:/usr/local/druid-services/lib/jersey-server-1.17.1.jar:/usr/local/druid-services/lib/maven-model-3.1.1.jar:/usr/local/druid-services/lib/emitter-0.2.11.jar:/usr/local/druid-services/lib/jackson-jaxrs-base-2.2.3.jar:/usr/local/druid-services/lib/plexus-utils-3.0.15.jar:/usr/local/druid-services/lib/jboss-logging-3.1.1.GA.jar:/usr/local/druid-services/lib/jets3t-0.9.1.jar:/usr/local/druid-services/lib/antlr4-runtime-4.0.jar:/usr/local/druid-services/lib/jackson-annotations-2.2.3.jar:/usr/local/druid-services/lib/joda-time-2.1.jar:/usr/local/druid-services/lib/jetty-servlet-9.2.3.v20140905.jar:/usr/local/druid-services/lib/curator-framework-2.6.0.jar:/usr/local/druid-services/lib/commons-dbcp-1.4.jar:/usr/local/druid-services/lib/commons-lang-2.6.jar:/usr/local/druid-services/config/overlord
-2014-12-22 17:45:14,782 INFO [main] org.apache.zookeeper.ZooKeeper - Client environment:java.library.path=/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
-2014-12-22 17:45:14,782 INFO [main] org.apache.zookeeper.ZooKeeper - Client environment:java.io.tmpdir=/tmp
-2014-12-22 17:45:14,782 INFO [main] org.apache.zookeeper.ZooKeeper - Client environment:java.compiler=<NA>
-2014-12-22 17:45:14,782 INFO [main] org.apache.zookeeper.ZooKeeper - Client environment:os.name=Linux
-2014-12-22 17:45:14,782 INFO [main] org.apache.zookeeper.ZooKeeper - Client environment:os.arch=amd64
-2014-12-22 17:45:14,782 INFO [main] org.apache.zookeeper.ZooKeeper - Client environment:os.version=2.6.32-5-xen-amd64
-2014-12-22 17:45:14,782 INFO [main] org.apache.zookeeper.ZooKeeper - Client environment:user.name=druid
-2014-12-22 17:45:14,782 INFO [main] org.apache.zookeeper.ZooKeeper - Client environment:user.home=/home/druid
-2014-12-22 17:45:14,783 INFO [main] org.apache.zookeeper.ZooKeeper - Client environment:user.dir=/
-2014-12-22 17:45:14,784 INFO [main] org.apache.zookeeper.ZooKeeper - Initiating client connection, connectString=<zookeeper 1 hostname>,<zookeeper 2 hostname>,<zookeeper 3 hostname> sessionTimeout=30000 watcher=org.apache.curator.ConnectionState@238bfd6c
-2014-12-22 17:45:14,811 INFO [main-SendThread(<zookeeper 3 hostname>:2181)] org.apache.zookeeper.ClientCnxn - Opening socket connection to server <zookeeper 3 hostname>/10.28.200.215:2181. Will not attempt to authenticate using SASL (unknown error)
-2014-12-22 17:45:14,813 INFO [main] com.metamx.common.lifecycle.Lifecycle$AnnotationBasedHandler - Invoking start method[public void com.metamx.http.client.HttpClient.start()] on object[com.metamx.http.client.HttpClient@a18649a].
-2014-12-22 17:45:14,814 INFO [main] com.metamx.common.lifecycle.Lifecycle$AnnotationBasedHandler - Invoking start method[public void io.druid.indexing.overlord.TaskMaster.start()] on object[io.druid.indexing.overlord.TaskMaster@396639b].
-2014-12-22 17:45:14,826 INFO [main] org.eclipse.jetty.server.Server - jetty-9.2.3.v20140905
-2014-12-22 17:45:14,925 INFO [main-SendThread(<zookeeper 3 hostname>:2181)] org.apache.zookeeper.ClientCnxn - Socket connection established to <zookeeper 3 hostname>/10.28.200.215:2181, initiating session
-2014-12-22 17:45:14,935 INFO [main-SendThread(<zookeeper 3 hostname>:2181)] org.apache.zookeeper.ClientCnxn - Session establishment complete on server <zookeeper 3 hostname>/10.28.200.215:2181, sessionid = 0x34a649c0d0c000a, negotiated timeout = 30000
-2014-12-22 17:45:14,942 INFO [main-EventThread] org.apache.curator.framework.state.ConnectionStateManager - State change: CONNECTED
-Dec 22, 2014 5:45:15 PM com.sun.jersey.guice.spi.container.GuiceComponentProviderFactory register
+2014-12-22 21:12:03,202 INFO [main] io.druid.guice.PropertiesModule - Loading properties from runtime.properties
+2014-12-22 21:12:03,241 INFO [main] org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.0.1.Final
+2014-12-22 21:12:03,803 INFO [main] io.druid.guice.JsonConfigurator - Loaded class[class io.druid.guice.ExtensionsConfig] from props[druid.extensions.] as [ExtensionsConfig{searchCurrentClassloader=true, coordinates=[io.druid.extensions:druid-s3-extensions:0.6.160], localRepository='/home/druid/.m2/repository', remoteRepositories=[http://repo1.maven.org/maven2/, https://metamx.artifactoryonline.com/metamx/pub-libs-releases-local]}]
+2014-12-22 21:12:03,936 INFO [main] io.druid.initialization.Initialization - Loading extension[io.druid.extensions:druid-s3-extensions:0.6.160] for class[io.druid.cli.CliCommandCreator]
+2014-12-22 21:12:04,334 INFO [main] io.druid.initialization.Initialization - Added URL[file:/home/druid/.m2/repository/io/druid/extensions/druid-s3-extensions/0.6.160/druid-s3-extensions-0.6.160.jar]
+2014-12-22 21:12:04,334 INFO [main] io.druid.initialization.Initialization - Added URL[file:/home/druid/.m2/repository/net/java/dev/jets3t/jets3t/0.9.1/jets3t-0.9.1.jar]
+2014-12-22 21:12:04,334 INFO [main] io.druid.initialization.Initialization - Added URL[file:/home/druid/.m2/repository/commons-codec/commons-codec/1.7/commons-codec-1.7.jar]
+2014-12-22 21:12:04,334 INFO [main] io.druid.initialization.Initialization - Added URL[file:/home/druid/.m2/repository/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13.jar]
+2014-12-22 21:12:04,335 INFO [main] io.druid.initialization.Initialization - Added URL[file:/home/druid/.m2/repository/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13.jar]
+2014-12-22 21:12:04,335 INFO [main] io.druid.initialization.Initialization - Added URL[file:/home/druid/.m2/repository/javax/activation/activation/1.1.1/activation-1.1.1.jar]
+2014-12-22 21:12:04,335 INFO [main] io.druid.initialization.Initialization - Added URL[file:/home/druid/.m2/repository/mx4j/mx4j/3.0.2/mx4j-3.0.2.jar]
+2014-12-22 21:12:04,335 INFO [main] io.druid.initialization.Initialization - Added URL[file:/home/druid/.m2/repository/javax/mail/mail/1.4.7/mail-1.4.7.jar]
+2014-12-22 21:12:04,335 INFO [main] io.druid.initialization.Initialization - Added URL[file:/home/druid/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar]
+2014-12-22 21:12:04,335 INFO [main] io.druid.initialization.Initialization - Added URL[file:/home/druid/.m2/repository/org/bouncycastle/bcprov-jdk15/1.46/bcprov-jdk15-1.46.jar]
+2014-12-22 21:12:04,335 INFO [main] io.druid.initialization.Initialization - Added URL[file:/home/druid/.m2/repository/com/jamesmurty/utils/java-xmlbuilder/0.4/java-xmlbuilder-0.4.jar]
+2014-12-22 21:12:04,335 INFO [main] io.druid.initialization.Initialization - Added URL[file:/home/druid/.m2/repository/com/amazonaws/aws-java-sdk/1.6.0.1/aws-java-sdk-1.6.0.1.jar]
+2014-12-22 21:12:04,335 INFO [main] io.druid.initialization.Initialization - Added URL[file:/home/druid/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.2.3/jackson-core-2.2.3.jar]
+2014-12-22 21:12:04,335 INFO [main] io.druid.initialization.Initialization - Added URL[file:/home/druid/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.2.3/jackson-annotations-2.2.3.jar]
+2014-12-22 21:12:04,336 INFO [main] io.druid.initialization.Initialization - Added URL[file:/home/druid/.m2/repository/org/apache/httpcomponents/httpclient/4.2/httpclient-4.2.jar]
+2014-12-22 21:12:04,336 INFO [main] io.druid.initialization.Initialization - Added URL[file:/home/druid/.m2/repository/org/apache/httpcomponents/httpcore/4.2/httpcore-4.2.jar]
+2014-12-22 21:12:04,336 INFO [main] io.druid.initialization.Initialization - Added URL[file:/home/druid/.m2/repository/com/metamx/emitter/0.2.11/emitter-0.2.11.jar]
+2014-12-22 21:12:04,336 INFO [main] io.druid.initialization.Initialization - Added URL[file:/home/druid/.m2/repository/com/metamx/http-client/0.9.6/http-client-0.9.6.jar]
+2014-12-22 21:12:04,336 INFO [main] io.druid.initialization.Initialization - Added URL[file:/home/druid/.m2/repository/io/netty/netty/3.9.0.Final/netty-3.9.0.Final.jar]
+2014-12-22 21:12:04,336 INFO [main] io.druid.initialization.Initialization - Added URL[file:/home/druid/.m2/repository/log4j/log4j/1.2.16/log4j-1.2.16.jar]
+2014-12-22 21:12:04,336 INFO [main] io.druid.initialization.Initialization - Added URL[file:/home/druid/.m2/repository/com/google/guava/guava/16.0.1/guava-16.0.1.jar]
+2014-12-22 21:12:04,336 INFO [main] io.druid.initialization.Initialization - Added URL[file:/home/druid/.m2/repository/commons-io/commons-io/2.0.1/commons-io-2.0.1.jar]
+2014-12-22 21:12:04,524 INFO [main] io.druid.initialization.Initialization - Loading extension[io.druid.extensions:druid-s3-extensions:0.6.160] for class[io.druid.initialization.DruidModule]
+2014-12-22 21:12:04,605 INFO [main] io.druid.initialization.Initialization - Adding extension module[class io.druid.storage.s3.S3StorageDruidModule] for class[io.druid.initialization.DruidModule]
+2014-12-22 21:12:04,606 INFO [main] io.druid.initialization.Initialization - Adding extension module[class io.druid.firehose.s3.S3FirehoseDruidModule] for class[io.druid.initialization.DruidModule]
+2014-12-22 21:12:05,072 INFO [main] io.druid.guice.JsonConfigurator - Loaded class[class com.metamx.emitter.core.LoggingEmitterConfig] from props[druid.emitter.logging.] as [LoggingEmitterConfig{loggerClass='com.metamx.emitter.core.LoggingEmitter', logLevel='debug'}]
+2014-12-22 21:12:05,084 INFO [main] io.druid.guice.JsonConfigurator - Loaded class[class io.druid.db.DbConnectorConfig] from props[druid.db.connector.] as [DbConnectorConfig{createTables=true, connectURI='jdbc:mysql://<rds hostname>:3306/druid', user='druid', password=****, useValidationQuery=false, validationQuery='SELECT 1'}]
+2014-12-22 21:12:05,098 INFO [main] io.druid.guice.JsonConfigurator - Loaded class[class io.druid.db.DbTablesConfig] from props[druid.db.tables.] as [io.druid.db.DbTablesConfig@36dce7ed]
+2014-12-22 21:12:05,211 INFO [main] io.druid.guice.JsonConfigurator - Loaded class[class io.druid.common.config.ConfigManagerConfig] from props[druid.manager.config.] as [io.druid.common.config.ConfigManagerConfig@503fbbc6]
+2014-12-22 21:12:05,234 INFO [main] io.druid.guice.JsonConfigurator - Loaded class[class io.druid.server.metrics.DruidMonitorSchedulerConfig] from props[druid.monitoring.] as [io.druid.server.metrics.DruidMonitorSchedulerConfig@46044faa]
+2014-12-22 21:12:05,264 INFO [main] com.metamx.metrics.SysMonitor - Loading sigar native lib at tmpPath[/tmp/yay3088406453866728003yay/libsigar-amd64-linux.so]
+2014-12-22 21:12:05,268 INFO [main] io.druid.guice.JsonConfigurator - Loaded class[class io.druid.server.metrics.MonitorsConfig] from props[druid.monitoring.] as [MonitorsConfig{monitors=[class com.metamx.metrics.SysMonitor, class com.metamx.metrics.JvmMonitor]}]
+2014-12-22 21:12:05,287 INFO [main] io.druid.guice.JsonConfigurator - Loaded class[class io.druid.server.DruidNode] from props[druid.] as [DruidNode{serviceName='druid/overlord', host='<overlord hostname>:8080', port=8080}]
+2014-12-22 21:12:05,303 INFO [main] io.druid.server.metrics.MetricsModule - Adding monitor[com.metamx.metrics.SysMonitor@78c7f9b3]
+2014-12-22 21:12:05,305 INFO [main] io.druid.server.metrics.MetricsModule - Adding monitor[com.metamx.metrics.JvmMonitor@4d6f623d]
+2014-12-22 21:12:05,369 INFO [main] io.druid.guice.JsonConfigurator - Loaded class[class io.druid.server.initialization.ServerConfig] from props[druid.server.http.] as [io.druid.server.initialization.ServerConfig@2bc12da]
+2014-12-22 21:12:05,378 INFO [main] org.eclipse.jetty.util.log - Logging initialized @2752ms
+2014-12-22 21:12:05,461 INFO [main] io.druid.guice.JsonConfigurator - Loaded class[class io.druid.indexing.overlord.config.TaskQueueConfig] from props[druid.indexer.queue.] as [io.druid.indexing.overlord.config.TaskQueueConfig@2687f956]
+2014-12-22 21:12:05,466 INFO [main] io.druid.guice.JsonConfigurator - Loaded class[class io.druid.indexing.common.config.TaskStorageConfig] from props[druid.indexer.storage.] as [io.druid.indexing.common.config.TaskStorageConfig@63e5e5b4]
+2014-12-22 21:12:05,469 INFO [main] org.skife.config.ConfigurationObjectFactory - Using method itself for [druid.zk.paths.liveSegmentsPath] on [io.druid.server.initialization.ZkPathsConfig
+2014-12-22 21:12:05,471 INFO [main] org.skife.config.ConfigurationObjectFactory - Using method itself for [druid.zk.paths.base] on [io.druid.server.initialization.ZkPathsConfig
+2014-12-22 21:12:05,471 INFO [main] org.skife.config.ConfigurationObjectFactory - Using method itself for [druid.zk.paths.loadQueuePath] on [io.druid.server.initialization.ZkPathsConfig
+2014-12-22 21:12:05,472 INFO [main] org.skife.config.ConfigurationObjectFactory - Using method itself for [druid.zk.paths.servedSegmentsPath] on [io.druid.server.initialization.ZkPathsConfig
+2014-12-22 21:12:05,472 INFO [main] org.skife.config.ConfigurationObjectFactory - Using method itself for [druid.zk.paths.coordinatorPath] on [io.druid.server.initialization.ZkPathsConfig
+2014-12-22 21:12:05,472 INFO [main] org.skife.config.ConfigurationObjectFactory - Using method itself for [druid.zk.paths.propertiesPath] on [io.druid.server.initialization.ZkPathsConfig
+2014-12-22 21:12:05,472 INFO [main] org.skife.config.ConfigurationObjectFactory - Using method itself for [druid.zk.paths.connectorPath] on [io.druid.server.initialization.ZkPathsConfig
+2014-12-22 21:12:05,472 INFO [main] org.skife.config.ConfigurationObjectFactory - Using method itself for [druid.zk.paths.indexer.announcementsPath] on [io.druid.server.initialization.ZkPathsConfig
+2014-12-22 21:12:05,472 INFO [main] org.skife.config.ConfigurationObjectFactory - Using method itself for [druid.zk.paths.indexer.tasksPath] on [io.druid.server.initialization.ZkPathsConfig
+2014-12-22 21:12:05,472 INFO [main] org.skife.config.ConfigurationObjectFactory - Using method itself for [druid.zk.paths.indexer.statusPath] on [io.druid.server.initialization.ZkPathsConfig
+2014-12-22 21:12:05,472 INFO [main] org.skife.config.ConfigurationObjectFactory - Using method itself for [druid.zk.paths.indexer.leaderLatchPath] on [io.druid.server.initialization.ZkPathsConfig
+2014-12-22 21:12:05,472 INFO [main] org.skife.config.ConfigurationObjectFactory - Using method itself for [druid.zk.paths.announcementsPath] on [io.druid.server.initialization.ZkPathsConfig
+2014-12-22 21:12:05,553 INFO [main] org.skife.config.ConfigurationObjectFactory - Assigning value [<zookeeper 1 hostname>,<zookeeper 2 hostname>,<zookeeper 3 hostname>] for [druid.zk.service.host] on [io.druid.curator.CuratorConfig
+2014-12-22 21:12:05,554 INFO [main] org.skife.config.ConfigurationObjectFactory - Assigning default value [30000] for [druid.zk.service.sessionTimeoutMs] on [io.druid.curator.CuratorConfig
+2014-12-22 21:12:05,554 INFO [main] org.skife.config.ConfigurationObjectFactory - Assigning default value [false] for [druid.curator.compress] on [io.druid.curator.CuratorConfig
+2014-12-22 21:12:05,566 WARN [main] org.apache.curator.retry.ExponentialBackoffRetry - maxRetries too large (30). Pinning to 29
+2014-12-22 21:12:05,625 INFO [main] io.druid.guice.JsonConfigurator - Loaded class[class io.druid.indexing.overlord.config.RemoteTaskRunnerConfig] from props[druid.indexer.runner.] as [io.druid.indexing.overlord.config.RemoteTaskRunnerConfig@1f38957]
+2014-12-22 21:12:05,630 INFO [main] io.druid.guice.JsonConfigurator - Loaded class[class io.druid.guice.http.DruidHttpClientConfig] from props[druid.global.http.] as [io.druid.guice.http.DruidHttpClientConfig@64aad6db]
+2014-12-22 21:12:05,712 INFO [main] io.druid.guice.JsonConfigurator - Loaded class[class io.druid.indexing.overlord.scaling.SimpleResourceManagementConfig] from props[druid.indexer.autoscale.] as [io.druid.indexing.overlord.scaling.SimpleResourceManagementConfig@1a28aef1]
+2014-12-22 21:12:05,713 INFO [main] io.druid.common.config.ConfigManager - Creating watch for key[worker.setup]
+2014-12-22 21:12:05,751 INFO [main] io.druid.guice.JsonConfigurator - Loaded class[class io.druid.indexing.overlord.scaling.ResourceManagementSchedulerConfig] from props[druid.indexer.autoscale.] as [io.druid.indexing.overlord.scaling.ResourceManagementSchedulerConfig@67b7c170]
+2014-12-22 21:12:05,755 INFO [main] io.druid.guice.JsonConfigurator - Loaded class[class io.druid.server.initialization.CuratorDiscoveryConfig] from props[druid.discovery.curator.] as [io.druid.server.initialization.CuratorDiscoveryConfig@327c7bea]
+2014-12-22 21:12:05,935 INFO [main] com.metamx.common.lifecycle.Lifecycle$AnnotationBasedHandler - Invoking start method[public void com.metamx.emitter.core.LoggingEmitter.start()] on object[com.metamx.emitter.core.LoggingEmitter@4e93dcb9].
+2014-12-22 21:12:06,258 INFO [main] io.druid.db.DbConnector - Table[druid_config] existed: [[{tables_in_druid (druid_config)=druid_config}]]
+2014-12-22 21:12:06,258 INFO [main] com.metamx.common.lifecycle.Lifecycle$AnnotationBasedHandler - Invoking start method[public void io.druid.common.config.ConfigManager.start()] on object[io.druid.common.config.ConfigManager@64968732].
+2014-12-22 21:12:06,260 INFO [main] com.metamx.common.lifecycle.Lifecycle$AnnotationBasedHandler - Invoking start method[public void com.metamx.emitter.service.ServiceEmitter.start()] on object[com.metamx.emitter.service.ServiceEmitter@54f4a7f0].
+2014-12-22 21:12:06,261 INFO [main] com.metamx.common.lifecycle.Lifecycle$AnnotationBasedHandler - Invoking start method[public void com.metamx.metrics.MonitorScheduler.start()] on object[com.metamx.metrics.MonitorScheduler@61a1ea2c].
+2014-12-22 21:12:06,262 INFO [main] io.druid.curator.CuratorModule - Starting Curator
+2014-12-22 21:12:06,262 INFO [main] org.apache.curator.framework.imps.CuratorFrameworkImpl - Starting
+2014-12-22 21:12:06,272 INFO [main] org.apache.zookeeper.ZooKeeper - Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+2014-12-22 21:12:06,272 INFO [main] org.apache.zookeeper.ZooKeeper - Client environment:host.name=<overlord hostname>
+2014-12-22 21:12:06,272 INFO [main] org.apache.zookeeper.ZooKeeper - Client environment:java.version=1.8.0_20
+2014-12-22 21:12:06,272 INFO [main] org.apache.zookeeper.ZooKeeper - Client environment:java.vendor=Oracle Corporation
+2014-12-22 21:12:06,272 INFO [main] org.apache.zookeeper.ZooKeeper - Client environment:java.home=/usr/java/jdk1.8.0_20/jre
+2014-12-22 21:12:06,272 INFO [main] org.apache.zookeeper.ZooKeeper - Client environment:java.class.path=/usr/local/druid-services/lib/jackson-jaxrs-json-provider-2.2.3.jar:/usr/local/druid-services/lib/icu4j-4.8.1.jar:/usr/local/druid-services/lib/tesla-aether-0.0.5.jar:/usr/local/druid-services/lib/google-http-client-1.15.0-rc.jar:/usr/local/druid-services/lib/maven-settings-builder-3.1.1.jar:/usr/local/druid-services/lib/asm-3.1.jar:/usr/local/druid-services/lib/aopalliance-1.0.jar:/usr/local/druid-services/lib/curator-client-2.6.0.jar:/usr/local/druid-services/lib/irc-api-1.0-0011.jar:/usr/local/druid-services/lib/okhttp-1.0.2.jar:/usr/local/druid-services/lib/curator-recipes-2.6.0.jar:/usr/local/druid-services/lib/maven-repository-metadata-3.1.1.jar:/usr/local/druid-services/lib/maven-model-builder-3.1.1.jar:/usr/local/druid-services/lib/bcprov-jdk15-1.46.jar:/usr/local/druid-services/lib/jetty-io-9.2.3.v20140905.jar:/usr/local/druid-services/lib/plexus-interpolation-1.19.jar:/usr/local/druid-services/lib/jetty-proxy-9.2.3.v20140905.jar:/usr/local/druid-services/lib/maven-settings-3.1.1.jar:/usr/local/druid-services/lib/aether-impl-0.9.0.M2.jar:/usr/local/druid-services/lib/server-metrics-0.0.9.jar:/usr/local/druid-services/lib/wagon-provider-api-2.4.jar:/usr/local/druid-services/lib/commons-cli-1.2.jar:/usr/local/druid-services/lib/mysql-connector-java-5.1.18.jar:/usr/local/druid-services/lib/alphanum-1.0.3.jar:/usr/local/druid-services/lib/maven-aether-provider-3.1.1.jar:/usr/local/druid-services/lib/java-util-0.26.9.jar:/usr/local/druid-services/lib/zookeeper-3.4.6.jar:/usr/local/druid-services/lib/mail-1.4.7.jar:/usr/local/druid-services/lib/guice-multibindings-4.0-beta.jar:/usr/local/druid-services/lib/jackson-module-jaxb-annotations-2.2.3.jar:/usr/local/druid-services/lib/xpp3-1.1.4c.jar:/usr/local/druid-services/lib/druid-processing-0.6.160.jar:/usr/local/druid-services/lib/jetty-servlets-9.2.3.v20140905.jar:/usr/local/druid-services/lib/spymemcached-2.8.4.jar:/usr/local/druid-services/lib/jersey-guice-1.17.1.jar:/usr/local/druid-services/lib/druid-indexing-hadoop-0.6.160.jar:/usr/local/druid-services/lib/jersey-core-1.17.1.jar:/usr/local/druid-services/lib/hibernate-validator-5.0.1.Final.jar:/usr/local/druid-services/lib/jackson-core-asl-1.9.13.jar:/usr/local/druid-services/lib/commons-pool-1.6.jar:/usr/local/druid-services/lib/compress-lzf-0.8.4.jar:/usr/local/druid-services/lib/validation-api-1.1.0.Final.jar:/usr/local/druid-services/lib/jackson-mapper-asl-1.9.13.jar:/usr/local/druid-services/lib/slf4j-api-1.6.4.jar:/usr/local/druid-services/lib/protobuf-java-2.5.0.jar:/usr/local/druid-services/lib/aether-api-0.9.0.M2.jar:/usr/local/druid-services/lib/jersey-servlet-1.17.1.jar:/usr/local/druid-services/lib/jackson-datatype-joda-2.2.3.jar:/usr/local/druid-services/lib/jackson-datatype-guava-2.2.3.jar:/usr/local/druid-services/lib/httpcore-4.2.jar:/usr/local/druid-services/lib/jetty-continuation-9.2.3.v20140905.jar:/usr/local/druid-services/lib/bytebuffer-collections-0.0.4.jar:/usr/local/druid-services/lib/sigar-1.6.5.132.jar:/usr/local/druid-services/lib/netty-3.9.0.Final.jar:/usr/local/druid-services/lib/jetty-security-9.2.3.v20140905.jar:/usr/local/druid-services/lib/jetty-http-9.2.3.v20140905.jar:/usr/local/druid-services/lib/rhino-1.7R4.jar:/usr/local/druid-services/lib/guice-4.0-beta.jar:/usr/local/druid-services/lib/jackson-databind-2.2.3.jar:/usr/local/druid-services/lib/google-http-client-jackson2-1.15.0-rc.jar:/usr/local/druid-services/lib/jackson-dataformat-smile-2.2.3.jar:/usr/local/druid-services/lib/org.abego.treelayout.core-1.0.1.jar:/usr/local/druid-services/lib/jline-0.9.94.jar:/usr/local/druid-services/lib/commons-logging-1.1.1.jar:/usr/local/druid-services/lib/druid-api-0.2.14.1.jar:/usr/local/druid-services/lib/maxminddb-0.2.0.jar:/usr/local/druid-services/lib/http-client-0.9.6.jar:/usr/local/druid-services/lib/jetty-util-9.2.3.v20140905.jar:/usr/local/druid-services/lib/druid-services-0.6.160.jar:/usr/local/druid-services/lib/commons-codec-1.7.jar:/usr/local/druid-services/lib/aether-spi-0.9.0.M2.jar:/usr/local/druid-services/lib/jetty-server-9.2.3.v20140905.jar:/usr/local/druid-services/lib/activation-1.1.1.jar:/usr/local/druid-services/lib/guava-16.0.1.jar:/usr/local/druid-services/lib/classmate-0.8.0.jar:/usr/local/druid-services/lib/geoip2-0.4.0.jar:/usr/local/druid-services/lib/log4j-1.2.16.jar:/usr/local/druid-services/lib/extendedset-1.3.7.jar:/usr/local/druid-services/lib/druid-indexing-service-0.6.160.jar:/usr/local/druid-services/lib/jdbi-2.32.jar:/usr/local/druid-services/lib/guice-servlet-4.0-beta.jar:/usr/local/druid-services/lib/jackson-jaxrs-smile-provider-2.2.3.jar:/usr/local/druid-services/lib/config-magic-0.9.jar:/usr/local/druid-services/lib/lz4-1.1.2.jar:/usr/local/druid-services/lib/httpclient-4.2.jar:/usr/local/druid-services/lib/commons-io-2.0.1.jar:/usr/local/druid-services/lib/java-xmlbuilder-0.4.jar:/usr/local/druid-services/lib/jetty-client-9.2.3.v20140905.jar:/usr/local/druid-services/lib/curator-x-discovery-2.6.0.jar:/usr/local/druid-services/lib/druid-common-0.6.160.jar:/usr/local/druid-services/lib/javax.inject-1.jar:/usr/local/druid-services/lib/jsr305-2.0.1.jar:/usr/local/druid-services/lib/druid-server-0.6.160.jar:/usr/local/druid-services/lib/aether-connector-file-0.9.0.M2.jar:/usr/local/druid-services/lib/aether-util-0.9.0.M2.jar:/usr/local/druid-services/lib/slf4j-log4j12-1.6.2.jar:/usr/local/druid-services/lib/aws-java-sdk-1.6.0.1.jar:/usr/local/druid-services/lib/airline-0.6.jar:/usr/local/druid-services/lib/javax.servlet-api-3.1.0.jar:/usr/local/druid-services/lib/opencsv-2.3.jar:/usr/local/druid-services/lib/mx4j-3.0.2.jar:/usr/local/druid-services/lib/aether-connector-okhttp-0.0.9.jar:/usr/local/druid-services/lib/jackson-core-2.2.3.jar:/usr/local/druid-services/lib/javax.el-3.0.0.jar:/usr/local/druid-services/lib/jersey-server-1.17.1.jar:/usr/local/druid-services/lib/maven-model-3.1.1.jar:/usr/local/druid-services/lib/emitter-0.2.11.jar:/usr/local/druid-services/lib/jackson-jaxrs-base-2.2.3.jar:/usr/local/druid-services/lib/plexus-utils-3.0.15.jar:/usr/local/druid-services/lib/jboss-logging-3.1.1.GA.jar:/usr/local/druid-services/lib/jets3t-0.9.1.jar:/usr/local/druid-services/lib/antlr4-runtime-4.0.jar:/usr/local/druid-services/lib/jackson-annotations-2.2.3.jar:/usr/local/druid-services/lib/joda-time-2.1.jar:/usr/local/druid-services/lib/jetty-servlet-9.2.3.v20140905.jar:/usr/local/druid-services/lib/curator-framework-2.6.0.jar:/usr/local/druid-services/lib/commons-dbcp-1.4.jar:/usr/local/druid-services/lib/commons-lang-2.6.jar:/usr/local/druid-services/config/overlord
+2014-12-22 21:12:06,272 INFO [main] org.apache.zookeeper.ZooKeeper - Client environment:java.library.path=/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+2014-12-22 21:12:06,272 INFO [main] org.apache.zookeeper.ZooKeeper - Client environment:java.io.tmpdir=/tmp
+2014-12-22 21:12:06,272 INFO [main] org.apache.zookeeper.ZooKeeper - Client environment:java.compiler=<NA>
+2014-12-22 21:12:06,272 INFO [main] org.apache.zookeeper.ZooKeeper - Client environment:os.name=Linux
+2014-12-22 21:12:06,272 INFO [main] org.apache.zookeeper.ZooKeeper - Client environment:os.arch=amd64
+2014-12-22 21:12:06,272 INFO [main] org.apache.zookeeper.ZooKeeper - Client environment:os.version=2.6.32-5-xen-amd64
+2014-12-22 21:12:06,272 INFO [main] org.apache.zookeeper.ZooKeeper - Client environment:user.name=druid
+2014-12-22 21:12:06,272 INFO [main] org.apache.zookeeper.ZooKeeper - Client environment:user.home=/home/druid
+2014-12-22 21:12:06,272 INFO [main] org.apache.zookeeper.ZooKeeper - Client environment:user.dir=/
+2014-12-22 21:12:06,273 INFO [main] org.apache.zookeeper.ZooKeeper - Initiating client connection, connectString=<zookeeper 1 hostname>,<zookeeper 2 hostname>,<zookeeper 3 hostname> sessionTimeout=30000 watcher=org.apache.curator.ConnectionState@238bfd6c
+2014-12-22 21:12:06,298 INFO [main-SendThread(<zookeeper 3 hostname>:2181)] org.apache.zookeeper.ClientCnxn - Opening socket connection to server <zookeeper 3 hostname>/10.28.200.215:2181. Will not attempt to authenticate using SASL (unknown error)
+2014-12-22 21:12:06,300 INFO [main] com.metamx.common.lifecycle.Lifecycle$AnnotationBasedHandler - Invoking start method[public void com.metamx.http.client.HttpClient.start()] on object[com.metamx.http.client.HttpClient@a18649a].
+2014-12-22 21:12:06,301 INFO [main] com.metamx.common.lifecycle.Lifecycle$AnnotationBasedHandler - Invoking start method[public void io.druid.indexing.overlord.TaskMaster.start()] on object[io.druid.indexing.overlord.TaskMaster@396639b].
+2014-12-22 21:12:06,314 INFO [main] org.eclipse.jetty.server.Server - jetty-9.2.3.v20140905
+2014-12-22 21:12:06,387 INFO [main-SendThread(<zookeeper 3 hostname>:2181)] org.apache.zookeeper.ClientCnxn - Socket connection established to <zookeeper 3 hostname>/10.28.200.215:2181, initiating session
+2014-12-22 21:12:06,397 INFO [main-SendThread(<zookeeper 3 hostname>:2181)] org.apache.zookeeper.ClientCnxn - Session establishment complete on server <zookeeper 3 hostname>/10.28.200.215:2181, sessionid = 0x34a649c0d0c0010, negotiated timeout = 30000
+2014-12-22 21:12:06,404 INFO [main-EventThread] org.apache.curator.framework.state.ConnectionStateManager - State change: CONNECTED
+Dec 22, 2014 9:12:06 PM com.sun.jersey.guice.spi.container.GuiceComponentProviderFactory register
 INFO: Registering com.fasterxml.jackson.jaxrs.json.JacksonJsonProvider as a provider class
-Dec 22, 2014 5:45:15 PM com.sun.jersey.guice.spi.container.GuiceComponentProviderFactory register
+Dec 22, 2014 9:12:06 PM com.sun.jersey.guice.spi.container.GuiceComponentProviderFactory register
 INFO: Registering io.druid.server.StatusResource as a root resource class
-Dec 22, 2014 5:45:15 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+Dec 22, 2014 9:12:06 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
 INFO: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
-Dec 22, 2014 5:45:15 PM com.sun.jersey.guice.spi.container.GuiceComponentProviderFactory getComponentProvider
+Dec 22, 2014 9:12:06 PM com.sun.jersey.guice.spi.container.GuiceComponentProviderFactory getComponentProvider
 INFO: Binding com.fasterxml.jackson.jaxrs.json.JacksonJsonProvider to GuiceManagedComponentProvider with the scope "Singleton"
-4.107: [GC (Allocation Failure) 4.107: [ParNew: 419456K->28895K(471872K), 0.0960620 secs] 419456K->28895K(10433344K), 0.0961973 secs] [Times: user=0.31 sys=0.02, real=0.10 secs] 
-4.227: [GC (CMS Initial Mark) [1 CMS-initial-mark: 0K(9961472K)] 40052K(10433344K), 0.0073491 secs] [Times: user=0.02 sys=0.01, real=0.01 secs] 
-4.234: [CMS-concurrent-mark-start]
-4.378: [CMS-concurrent-mark: 0.143/0.143 secs] [Times: user=0.36 sys=0.05, real=0.14 secs] 
-4.384: [CMS-concurrent-preclean-start]
-4.415: [CMS-concurrent-preclean: 0.030/0.030 secs] [Times: user=0.08 sys=0.00, real=0.03 secs] 
-4.415: [CMS-concurrent-abortable-preclean-start]
-Dec 22, 2014 5:45:15 PM com.sun.jersey.guice.spi.container.GuiceComponentProviderFactory getComponentProvider
+4.102: [GC (Allocation Failure) 4.102: [ParNew: 419456K->28895K(471872K), 0.1138786 secs] 419456K->28895K(10433344K), 0.1140270 secs] [Times: user=0.34 sys=0.01, real=0.11 secs] 
+4.232: [GC (CMS Initial Mark) [1 CMS-initial-mark: 0K(9961472K)] 35773K(10433344K), 0.0061310 secs] [Times: user=0.02 sys=0.00, real=0.00 secs] 
+4.238: [CMS-concurrent-mark-start]
+4.374: [CMS-concurrent-mark: 0.136/0.136 secs] [Times: user=0.38 sys=0.04, real=0.14 secs] 
+4.374: [CMS-concurrent-preclean-start]
+4.405: [CMS-concurrent-preclean: 0.030/0.030 secs] [Times: user=0.11 sys=0.00, real=0.03 secs] 
+4.405: [CMS-concurrent-abortable-preclean-start]
+Dec 22, 2014 9:12:07 PM com.sun.jersey.guice.spi.container.GuiceComponentProviderFactory getComponentProvider
 INFO: Binding io.druid.indexing.overlord.http.OverlordResource to GuiceInstantiatedComponentProvider
-Dec 22, 2014 5:45:15 PM com.sun.jersey.guice.spi.container.GuiceComponentProviderFactory getComponentProvider
+Dec 22, 2014 9:12:07 PM com.sun.jersey.guice.spi.container.GuiceComponentProviderFactory getComponentProvider
 INFO: Binding io.druid.server.StatusResource to GuiceManagedComponentProvider with the scope "Undefined"
-Dec 22, 2014 5:45:15 PM com.sun.jersey.spi.inject.Errors processErrorMessages
+Dec 22, 2014 9:12:07 PM com.sun.jersey.spi.inject.Errors processErrorMessages
 WARNING: The following warnings have been detected with resource and/or provider classes:
   WARNING: Parameter 1 of type io.druid.indexing.common.actions.TaskActionHolder<T> from public <T> javax.ws.rs.core.Response io.druid.indexing.overlord.http.OverlordResource.doAction(io.druid.indexing.common.actions.TaskActionHolder<T>) is not resolvable to a concrete type
-2014-12-22 17:45:15,964 INFO [main] org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@2e17a321{/,[jar:file:/usr/local/druid-releases/druid-services-0.6.160/lib/druid-server-0.6.160.jar!/static, jar:file:/usr/local/druid-releases/druid-services-0.6.160/lib/druid-indexing-service-0.6.160.jar!/indexer_static],AVAILABLE}
-2014-12-22 17:45:15,969 INFO [LeaderSelector-0] io.druid.indexing.overlord.TaskMaster - By the power of Grayskull, I have the power!
-2014-12-22 17:45:15,970 INFO [LeaderSelector-0] io.druid.indexing.overlord.TaskLockbox - Synced 0 locks for 0 tasks from storage (0 locks ignored).
-2014-12-22 17:45:15,979 INFO [main] org.eclipse.jetty.server.ServerConnector - Started ServerConnector@12a14b74{HTTP/1.1}{0.0.0.0:8080}
-2014-12-22 17:45:15,979 INFO [main] org.eclipse.jetty.server.Server - Started @4783ms
-2014-12-22 17:45:15,988 INFO [LeaderSelector-0] com.metamx.common.lifecycle.Lifecycle$AnnotationBasedHandler - Invoking start method[public void io.druid.indexing.overlord.RemoteTaskRunner.start()] on object[io.druid.indexing.overlord.RemoteTaskRunner@296cbd47].
-2014-12-22 17:45:16,013 INFO [LeaderSelector-0] com.metamx.common.lifecycle.Lifecycle$AnnotationBasedHandler - Invoking start method[public void io.druid.indexing.overlord.TaskQueue.start()] on object[io.druid.indexing.overlord.TaskQueue@672d5db].
-2014-12-22 17:45:16,015 INFO [LeaderSelector-0] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 17:45:16,017 INFO [TaskQueue-Manager] io.druid.indexing.overlord.TaskQueue - Beginning management in PT0S.
-2014-12-22 17:45:16,021 INFO [LeaderSelector-0] io.druid.curator.discovery.CuratorServiceAnnouncer - Announcing service[DruidNode{serviceName='druid-overlord', host='<overlord hostname>:8080', port=8080}]
-2014-12-22 17:45:16,679 INFO [PathChildrenCache-0] io.druid.indexing.overlord.RemoteTaskRunner - Worker[<middlemanager hostname>:8080] reportin' for duty!
- CMS: abort preclean due to time 9.477: [CMS-concurrent-abortable-preclean: 2.798/5.062 secs] [Times: user=6.48 sys=0.10, real=5.06 secs] 
-9.477: [GC (CMS Final Remark) [YG occupancy: 103474 K (471872 K)]9.477: [Rescan (parallel) , 0.0178551 secs]9.495: [weak refs processing, 0.0000328 secs]9.495: [class unloading, 0.0097723 secs]9.505: [scrub symbol table, 0.0035439 secs]9.509: [scrub string table, 0.0004929 secs][1 CMS-remark: 0K(9961472K)] 103474K(10433344K), 0.0339711 secs] [Times: user=0.08 sys=0.00, real=0.03 secs] 
-9.511: [CMS-concurrent-sweep-start]
-9.511: [CMS-concurrent-sweep: 0.000/0.000 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-9.512: [CMS-concurrent-reset-start]
-9.724: [CMS-concurrent-reset: 0.213/0.213 secs] [Times: user=0.04 sys=0.17, real=0.21 secs] 
-2014-12-22 17:46:16,016 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 17:47:16,017 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 17:48:16,017 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 17:48:49,613 INFO [qtp1300576734-39] io.druid.guice.JsonConfigurator - Loaded class[class io.druid.storage.s3.S3TaskLogsConfig] from props[druid.indexer.logs.] as [io.druid.storage.s3.S3TaskLogsConfig@26cea149]
-2014-12-22 17:48:49,616 INFO [qtp1300576734-39] io.druid.guice.JsonConfigurator - Loaded class[class io.druid.storage.s3.AWSCredentialsConfig] from props[druid.s3.] as [io.druid.storage.s3.AWSCredentialsConfig@5fea2a56]
-2014-12-22 17:48:55,797 INFO [qtp1300576734-37] io.druid.indexing.overlord.HeapMemoryTaskStorage - Inserting task index_outclick_2014-12-22T17:48:55.794Z with status: TaskStatus{id=index_outclick_2014-12-22T17:48:55.794Z, status=RUNNING, duration=-1}
-2014-12-22 17:48:55,800 INFO [TaskQueue-Manager] io.druid.indexing.common.actions.LocalTaskActionClient - Performing action for task[index_outclick_2014-12-22T17:48:55.794Z]: LockTryAcquireAction{interval=2014-04-20T00:00:00.000Z/2014-04-26T00:00:00.000Z}
-2014-12-22 17:48:55,801 INFO [TaskQueue-Manager] io.druid.indexing.overlord.TaskLockbox - Created new TaskLockPosse: TaskLockPosse{taskLock=TaskLock{groupId=index_outclick_2014-12-22T17:48:55.794Z, dataSource=outclick, interval=2014-04-20T00:00:00.000Z/2014-04-26T00:00:00.000Z, version=2014-12-22T17:48:55.800Z}, taskIds=[]}
-2014-12-22 17:48:55,801 INFO [TaskQueue-Manager] io.druid.indexing.overlord.TaskLockbox - Added task[index_outclick_2014-12-22T17:48:55.794Z] to TaskLock[index_outclick_2014-12-22T17:48:55.794Z]
-2014-12-22 17:48:55,801 INFO [TaskQueue-Manager] io.druid.indexing.overlord.TaskQueue - Asking taskRunner to run: index_outclick_2014-12-22T17:48:55.794Z
-2014-12-22 17:48:55,801 INFO [TaskQueue-Manager] io.druid.indexing.overlord.RemoteTaskRunner - Added pending task index_outclick_2014-12-22T17:48:55.794Z
-2014-12-22 17:48:55,806 INFO [pool-11-thread-1] io.druid.indexing.overlord.RemoteTaskRunner - Coordinator asking Worker[<middlemanager hostname>:8080] to add task[index_outclick_2014-12-22T17:48:55.794Z]
-2014-12-22 17:48:55,843 INFO [pool-11-thread-1] io.druid.indexing.overlord.RemoteTaskRunner - Task index_outclick_2014-12-22T17:48:55.794Z switched from pending to running (on [<middlemanager hostname>:8080])
-2014-12-22 17:48:55,984 INFO [PathChildrenCache-0] io.druid.indexing.overlord.RemoteTaskRunner - Worker[<middlemanager hostname>:8080] wrote RUNNING status for task: index_outclick_2014-12-22T17:48:55.794Z
-2014-12-22 17:48:56,008 INFO [PathChildrenCache-0] io.druid.indexing.overlord.RemoteTaskRunner - Worker[<middlemanager hostname>:8080] wrote FAILED status for task: index_outclick_2014-12-22T17:48:55.794Z
-2014-12-22 17:48:56,008 INFO [PathChildrenCache-0] io.druid.indexing.overlord.RemoteTaskRunner - Worker[<middlemanager hostname>:8080] completed task[index_outclick_2014-12-22T17:48:55.794Z] with status[FAILED]
-2014-12-22 17:48:56,009 INFO [PathChildrenCache-0] io.druid.indexing.overlord.TaskQueue - Received FAILED status for task: index_outclick_2014-12-22T17:48:55.794Z
-2014-12-22 17:48:56,009 INFO [PathChildrenCache-0] io.druid.indexing.overlord.RemoteTaskRunner - Cleaning up task[index_outclick_2014-12-22T17:48:55.794Z] on worker[<middlemanager hostname>:8080]
-2014-12-22 17:48:56,016 INFO [PathChildrenCache-0] io.druid.indexing.overlord.HeapMemoryTaskStorage - Updating task index_outclick_2014-12-22T17:48:55.794Z to status: TaskStatus{id=index_outclick_2014-12-22T17:48:55.794Z, status=FAILED, duration=0}
-2014-12-22 17:48:56,018 INFO [PathChildrenCache-0] io.druid.indexing.overlord.TaskLockbox - Removing task[index_outclick_2014-12-22T17:48:55.794Z] from TaskLock[index_outclick_2014-12-22T17:48:55.794Z]
-2014-12-22 17:48:56,018 INFO [PathChildrenCache-0] io.druid.indexing.overlord.TaskLockbox - TaskLock is now empty: TaskLock{groupId=index_outclick_2014-12-22T17:48:55.794Z, dataSource=outclick, interval=2014-04-20T00:00:00.000Z/2014-04-26T00:00:00.000Z, version=2014-12-22T17:48:55.800Z}
-2014-12-22 17:48:56,019 INFO [PathChildrenCache-0] io.druid.indexing.overlord.TaskQueue - Task done: IndexTask{id=index_outclick_2014-12-22T17:48:55.794Z, type=index, dataSource=outclick}
-2014-12-22 17:48:56,019 INFO [PathChildrenCache-0] io.druid.indexing.overlord.TaskQueue - Task FAILED: IndexTask{id=index_outclick_2014-12-22T17:48:55.794Z, type=index, dataSource=outclick} (0 run duration)
-2014-12-22 17:48:56,019 INFO [PathChildrenCache-0] io.druid.indexing.overlord.RemoteTaskRunner - Task[index_outclick_2014-12-22T17:48:55.794Z] went bye bye.
-2014-12-22 17:49:16,017 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 17:50:16,017 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 17:51:16,017 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 17:52:16,017 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 17:53:16,018 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 17:54:16,018 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 17:55:16,018 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 17:56:16,018 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 17:57:16,018 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 17:58:16,018 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 17:59:16,019 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 18:00:16,019 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 18:01:16,019 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 18:02:16,019 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 18:03:16,019 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 18:04:16,019 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 18:05:16,020 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 18:06:16,020 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 18:07:16,020 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 18:08:16,020 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 18:09:16,020 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 18:10:16,020 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 18:11:16,021 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 18:12:16,021 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 18:13:16,021 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 18:14:16,021 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 18:15:16,021 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 18:16:16,021 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 18:17:16,021 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 18:18:16,022 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 18:19:16,022 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 18:20:16,022 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 18:21:16,022 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 18:22:16,022 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 18:23:16,022 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 18:24:16,023 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 18:25:16,023 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 18:26:16,023 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 18:27:16,023 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 18:28:16,023 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 18:29:16,023 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 18:30:16,023 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 18:31:16,024 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 18:32:16,024 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 18:33:16,024 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 18:34:16,024 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 18:35:16,024 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 18:36:16,024 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 18:37:16,024 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 18:38:16,025 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 18:39:16,025 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 18:40:16,025 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 18:41:16,025 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 18:42:16,025 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 18:43:16,025 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 18:44:16,025 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 18:45:16,026 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 18:46:16,026 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 18:47:16,026 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 18:48:16,026 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 18:49:16,026 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 18:50:16,026 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 18:51:16,026 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 18:52:16,027 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 18:53:16,027 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 18:54:16,027 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 18:55:16,027 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 18:56:16,027 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 18:57:16,027 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 18:58:16,027 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 18:59:16,028 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 19:00:16,028 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 19:01:16,028 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 19:02:16,028 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 19:03:16,028 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 19:04:16,028 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 19:05:16,028 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 19:06:16,029 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 19:07:16,029 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 19:08:16,029 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 19:09:16,029 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 19:10:16,029 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 19:11:16,029 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 19:12:16,029 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 19:13:16,030 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 19:14:16,030 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 19:15:16,030 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 19:16:16,030 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 19:17:16,030 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 19:18:16,030 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 19:19:16,030 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 19:20:16,031 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 19:21:16,031 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 19:22:16,031 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 19:23:16,031 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 19:24:16,031 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 19:25:16,031 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 19:26:16,031 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 19:27:16,032 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 19:27:53,245 INFO [PathChildrenCache-0] io.druid.indexing.overlord.RemoteTaskRunner - Kaboom! Worker[<middlemanager hostname>:8080] removed!
-2014-12-22 19:27:53,246 INFO [PathChildrenCache-0] io.druid.indexing.overlord.RemoteTaskRunner - [<middlemanager hostname>:8080]: Found 0 tasks assigned
-2014-12-22 19:27:58,312 INFO [PathChildrenCache-0] io.druid.indexing.overlord.RemoteTaskRunner - Worker[<middlemanager hostname>:8080] reportin' for duty!
-2014-12-22 19:28:02,921 INFO [PathChildrenCache-0] io.druid.indexing.overlord.RemoteTaskRunner - Kaboom! Worker[<middlemanager hostname>:8080] removed!
-2014-12-22 19:28:02,922 INFO [PathChildrenCache-0] io.druid.indexing.overlord.RemoteTaskRunner - [<middlemanager hostname>:8080]: Found 0 tasks assigned
-2014-12-22 19:28:08,747 INFO [PathChildrenCache-0] io.druid.indexing.overlord.RemoteTaskRunner - Worker[<middlemanager hostname>:8080] reportin' for duty!
-2014-12-22 19:28:16,032 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 19:29:16,032 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 19:30:16,032 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 19:31:16,032 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 19:32:16,032 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 19:33:16,033 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 19:34:16,033 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 19:34:39,617 INFO [qtp1300576734-34] io.druid.indexing.overlord.HeapMemoryTaskStorage - Inserting task index_outclick_2014-12-22T19:34:39.617Z with status: TaskStatus{id=index_outclick_2014-12-22T19:34:39.617Z, status=RUNNING, duration=-1}
-2014-12-22 19:34:39,618 INFO [TaskQueue-Manager] io.druid.indexing.common.actions.LocalTaskActionClient - Performing action for task[index_outclick_2014-12-22T19:34:39.617Z]: LockTryAcquireAction{interval=2014-04-20T00:00:00.000Z/2014-04-26T00:00:00.000Z}
-2014-12-22 19:34:39,618 INFO [TaskQueue-Manager] io.druid.indexing.overlord.TaskLockbox - Created new TaskLockPosse: TaskLockPosse{taskLock=TaskLock{groupId=index_outclick_2014-12-22T19:34:39.617Z, dataSource=outclick, interval=2014-04-20T00:00:00.000Z/2014-04-26T00:00:00.000Z, version=2014-12-22T19:34:39.618Z}, taskIds=[]}
-2014-12-22 19:34:39,618 INFO [TaskQueue-Manager] io.druid.indexing.overlord.TaskLockbox - Added task[index_outclick_2014-12-22T19:34:39.617Z] to TaskLock[index_outclick_2014-12-22T19:34:39.617Z]
-2014-12-22 19:34:39,618 INFO [TaskQueue-Manager] io.druid.indexing.overlord.TaskQueue - Asking taskRunner to run: index_outclick_2014-12-22T19:34:39.617Z
-2014-12-22 19:34:39,618 INFO [TaskQueue-Manager] io.druid.indexing.overlord.RemoteTaskRunner - Added pending task index_outclick_2014-12-22T19:34:39.617Z
-2014-12-22 19:34:39,619 INFO [pool-11-thread-1] io.druid.indexing.overlord.RemoteTaskRunner - Coordinator asking Worker[<middlemanager hostname>:8080] to add task[index_outclick_2014-12-22T19:34:39.617Z]
-2014-12-22 19:34:39,631 INFO [pool-11-thread-1] io.druid.indexing.overlord.RemoteTaskRunner - Task index_outclick_2014-12-22T19:34:39.617Z switched from pending to running (on [<middlemanager hostname>:8080])
-2014-12-22 19:34:39,789 INFO [PathChildrenCache-0] io.druid.indexing.overlord.RemoteTaskRunner - Worker[<middlemanager hostname>:8080] wrote RUNNING status for task: index_outclick_2014-12-22T19:34:39.617Z
-2014-12-22 19:34:43,624 INFO [qtp1300576734-33] com.metamx.http.client.pool.ChannelResourceFactory - Generating: http://<middlemanager hostname>:8080
-2014-12-22 19:34:43,675 INFO [qtp1300576734-33] com.metamx.http.client.pool.ChannelResourceFactory - Generating: http://<middlemanager hostname>:8080
-2014-12-22 19:34:43,676 INFO [qtp1300576734-33] com.metamx.http.client.pool.ChannelResourceFactory - Generating: http://<middlemanager hostname>:8080
-2014-12-22 19:34:43,676 INFO [qtp1300576734-33] com.metamx.http.client.pool.ChannelResourceFactory - Generating: http://<middlemanager hostname>:8080
-2014-12-22 19:34:43,676 INFO [qtp1300576734-33] com.metamx.http.client.pool.ChannelResourceFactory - Generating: http://<middlemanager hostname>:8080
-2014-12-22 19:35:16,033 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 1 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 19:36:16,033 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 1 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 19:37:16,033 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 1 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 19:38:16,033 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 1 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 19:39:16,033 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 1 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 19:40:16,033 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 1 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 19:41:16,034 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 1 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 19:42:16,034 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 1 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 19:43:16,034 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 1 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 19:44:16,034 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 1 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 19:45:16,034 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 1 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 19:46:16,034 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 1 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 19:46:59,894 INFO [qtp1300576734-38] com.metamx.http.client.pool.ChannelResourceFactory - Generating: http://<middlemanager hostname>:8080
-2014-12-22 19:47:16,034 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 1 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 19:48:16,035 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 1 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 19:49:16,035 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 1 tasks from storage (0 tasks added, 0 tasks removed).
-2014-12-22 19:50:16,035 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 1 tasks from storage (0 tasks added, 0 tasks removed).
+2014-12-22 21:12:07,330 INFO [main] org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@2e17a321{/,[jar:file:/usr/local/druid-releases/druid-services-0.6.160/lib/druid-server-0.6.160.jar!/static, jar:file:/usr/local/druid-releases/druid-services-0.6.160/lib/druid-indexing-service-0.6.160.jar!/indexer_static],AVAILABLE}
+2014-12-22 21:12:07,339 INFO [main] org.eclipse.jetty.server.ServerConnector - Started ServerConnector@12a14b74{HTTP/1.1}{0.0.0.0:8080}
+2014-12-22 21:12:07,340 INFO [main] org.eclipse.jetty.server.Server - Started @4718ms
+2014-12-22 21:12:07,424 INFO [LeaderSelector-0] io.druid.indexing.overlord.TaskMaster - By the power of Grayskull, I have the power!
+2014-12-22 21:12:07,424 INFO [LeaderSelector-0] io.druid.indexing.overlord.TaskLockbox - Synced 0 locks for 0 tasks from storage (0 locks ignored).
+2014-12-22 21:12:07,438 INFO [LeaderSelector-0] com.metamx.common.lifecycle.Lifecycle$AnnotationBasedHandler - Invoking start method[public void io.druid.indexing.overlord.RemoteTaskRunner.start()] on object[io.druid.indexing.overlord.RemoteTaskRunner@76e97f07].
+2014-12-22 21:12:07,480 INFO [PathChildrenCache-0] io.druid.indexing.overlord.RemoteTaskRunner - Worker[<middlemanager hostname>:8080] reportin' for duty!
+2014-12-22 21:12:07,495 INFO [LeaderSelector-0] com.metamx.common.lifecycle.Lifecycle$AnnotationBasedHandler - Invoking start method[public void io.druid.indexing.overlord.TaskQueue.start()] on object[io.druid.indexing.overlord.TaskQueue@415b52bf].
+2014-12-22 21:12:07,497 INFO [LeaderSelector-0] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
+2014-12-22 21:12:07,503 INFO [LeaderSelector-0] io.druid.curator.discovery.CuratorServiceAnnouncer - Announcing service[DruidNode{serviceName='druid/overlord', host='<overlord hostname>:8080', port=8080}]
+2014-12-22 21:12:07,500 INFO [TaskQueue-Manager] io.druid.indexing.overlord.TaskQueue - Beginning management in PT0S.
+ CMS: abort preclean due to time 9.487: [CMS-concurrent-abortable-preclean: 2.794/5.082 secs] [Times: user=6.30 sys=0.05, real=5.08 secs] 
+9.487: [GC (CMS Final Remark) [YG occupancy: 107415 K (471872 K)]9.487: [Rescan (parallel) , 0.0168167 secs]9.504: [weak refs processing, 0.0000331 secs]9.504: [class unloading, 0.0095683 secs]9.514: [scrub symbol table, 0.0035317 secs]9.517: [scrub string table, 0.0004912 secs][1 CMS-remark: 0K(9961472K)] 107415K(10433344K), 0.0325886 secs] [Times: user=0.08 sys=0.00, real=0.04 secs] 
+9.520: [CMS-concurrent-sweep-start]
+9.520: [CMS-concurrent-sweep: 0.000/0.000 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+9.520: [CMS-concurrent-reset-start]
+9.734: [CMS-concurrent-reset: 0.213/0.213 secs] [Times: user=0.03 sys=0.18, real=0.21 secs] 
+2014-12-22 21:12:29,738 INFO [qtp1300576734-39] io.druid.guice.JsonConfigurator - Loaded class[class io.druid.storage.s3.S3TaskLogsConfig] from props[druid.indexer.logs.] as [io.druid.storage.s3.S3TaskLogsConfig@f98eb59]
+2014-12-22 21:12:29,743 INFO [qtp1300576734-39] io.druid.guice.JsonConfigurator - Loaded class[class io.druid.storage.s3.AWSCredentialsConfig] from props[druid.s3.] as [io.druid.storage.s3.AWSCredentialsConfig@1000abff]
+2014-12-22 21:12:46,143 INFO [qtp1300576734-36] io.druid.indexing.overlord.HeapMemoryTaskStorage - Inserting task index_outclick_2014-12-22T21:12:46.140Z with status: TaskStatus{id=index_outclick_2014-12-22T21:12:46.140Z, status=RUNNING, duration=-1}
+2014-12-22 21:12:46,145 INFO [TaskQueue-Manager] io.druid.indexing.common.actions.LocalTaskActionClient - Performing action for task[index_outclick_2014-12-22T21:12:46.140Z]: LockTryAcquireAction{interval=2014-04-20T00:00:00.000Z/2014-04-26T00:00:00.000Z}
+2014-12-22 21:12:46,146 INFO [TaskQueue-Manager] io.druid.indexing.overlord.TaskLockbox - Created new TaskLockPosse: TaskLockPosse{taskLock=TaskLock{groupId=index_outclick_2014-12-22T21:12:46.140Z, dataSource=outclick, interval=2014-04-20T00:00:00.000Z/2014-04-26T00:00:00.000Z, version=2014-12-22T21:12:46.146Z}, taskIds=[]}
+2014-12-22 21:12:46,147 INFO [TaskQueue-Manager] io.druid.indexing.overlord.TaskLockbox - Added task[index_outclick_2014-12-22T21:12:46.140Z] to TaskLock[index_outclick_2014-12-22T21:12:46.140Z]
+2014-12-22 21:12:46,147 INFO [TaskQueue-Manager] io.druid.indexing.overlord.TaskQueue - Asking taskRunner to run: index_outclick_2014-12-22T21:12:46.140Z
+2014-12-22 21:12:46,147 INFO [TaskQueue-Manager] io.druid.indexing.overlord.RemoteTaskRunner - Added pending task index_outclick_2014-12-22T21:12:46.140Z
+2014-12-22 21:12:46,151 INFO [pool-11-thread-1] io.druid.indexing.overlord.RemoteTaskRunner - Coordinator asking Worker[<middlemanager hostname>:8080] to add task[index_outclick_2014-12-22T21:12:46.140Z]
+2014-12-22 21:12:46,179 INFO [pool-11-thread-1] io.druid.indexing.overlord.RemoteTaskRunner - Task index_outclick_2014-12-22T21:12:46.140Z switched from pending to running (on [<middlemanager hostname>:8080])
+2014-12-22 21:12:46,339 INFO [PathChildrenCache-0] io.druid.indexing.overlord.RemoteTaskRunner - Worker[<middlemanager hostname>:8080] wrote RUNNING status for task: index_outclick_2014-12-22T21:12:46.140Z
+2014-12-22 21:12:51,084 INFO [qtp1300576734-33] com.metamx.http.client.pool.ChannelResourceFactory - Generating: http://<middlemanager hostname>:8080
+2014-12-22 21:12:51,118 INFO [qtp1300576734-33] com.metamx.http.client.pool.ChannelResourceFactory - Generating: http://<middlemanager hostname>:8080
+2014-12-22 21:12:51,118 INFO [qtp1300576734-33] com.metamx.http.client.pool.ChannelResourceFactory - Generating: http://<middlemanager hostname>:8080
+2014-12-22 21:12:51,118 INFO [qtp1300576734-33] com.metamx.http.client.pool.ChannelResourceFactory - Generating: http://<middlemanager hostname>:8080
+2014-12-22 21:12:51,119 INFO [qtp1300576734-33] com.metamx.http.client.pool.ChannelResourceFactory - Generating: http://<middlemanager hostname>:8080
+2014-12-22 21:12:52,024 INFO [qtp1300576734-38] io.druid.indexing.common.actions.LocalTaskActionClient - Performing action for task[index_outclick_2014-12-22T21:12:46.140Z]: LockTryAcquireAction{interval=2014-04-20T00:00:00.000Z/2014-04-26T00:00:00.000Z}
+2014-12-22 21:12:52,028 INFO [qtp1300576734-38] io.druid.indexing.overlord.TaskLockbox - Task[index_outclick_2014-12-22T21:12:46.140Z] already present in TaskLock[index_outclick_2014-12-22T21:12:46.140Z]
+2014-12-22 21:12:52,294 INFO [qtp1300576734-37] io.druid.indexing.common.actions.LocalTaskActionClient - Performing action for task[index_outclick_2014-12-22T21:12:46.140Z]: LockListAction{}
+2014-12-22 21:12:53,252 INFO [PathChildrenCache-0] io.druid.indexing.overlord.RemoteTaskRunner - Worker[<middlemanager hostname>:8080] wrote FAILED status for task: index_outclick_2014-12-22T21:12:46.140Z
+2014-12-22 21:12:53,252 INFO [PathChildrenCache-0] io.druid.indexing.overlord.RemoteTaskRunner - Worker[<middlemanager hostname>:8080] completed task[index_outclick_2014-12-22T21:12:46.140Z] with status[FAILED]
+2014-12-22 21:12:53,252 INFO [PathChildrenCache-0] io.druid.indexing.overlord.TaskQueue - Received FAILED status for task: index_outclick_2014-12-22T21:12:46.140Z
+2014-12-22 21:12:53,252 INFO [PathChildrenCache-0] io.druid.indexing.overlord.RemoteTaskRunner - Cleaning up task[index_outclick_2014-12-22T21:12:46.140Z] on worker[<middlemanager hostname>:8080]
+2014-12-22 21:12:53,258 INFO [PathChildrenCache-0] io.druid.indexing.overlord.HeapMemoryTaskStorage - Updating task index_outclick_2014-12-22T21:12:46.140Z to status: TaskStatus{id=index_outclick_2014-12-22T21:12:46.140Z, status=FAILED, duration=0}
+2014-12-22 21:12:53,258 INFO [PathChildrenCache-0] io.druid.indexing.overlord.TaskLockbox - Removing task[index_outclick_2014-12-22T21:12:46.140Z] from TaskLock[index_outclick_2014-12-22T21:12:46.140Z]
+2014-12-22 21:12:53,259 INFO [PathChildrenCache-0] io.druid.indexing.overlord.TaskLockbox - TaskLock is now empty: TaskLock{groupId=index_outclick_2014-12-22T21:12:46.140Z, dataSource=outclick, interval=2014-04-20T00:00:00.000Z/2014-04-26T00:00:00.000Z, version=2014-12-22T21:12:46.146Z}
+2014-12-22 21:12:53,259 INFO [PathChildrenCache-0] io.druid.indexing.overlord.TaskQueue - Task done: IndexTask{id=index_outclick_2014-12-22T21:12:46.140Z, type=index, dataSource=outclick}
+2014-12-22 21:12:53,260 INFO [PathChildrenCache-0] io.druid.indexing.overlord.TaskQueue - Task FAILED: IndexTask{id=index_outclick_2014-12-22T21:12:46.140Z, type=index, dataSource=outclick} (0 run duration)
+2014-12-22 21:12:53,261 INFO [PathChildrenCache-0] io.druid.indexing.overlord.RemoteTaskRunner - Task[index_outclick_2014-12-22T21:12:46.140Z] went bye bye.
+2014-12-22 21:13:07,499 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
+2014-12-22 21:14:07,499 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
+2014-12-22 21:15:07,499 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
