@@ -202,3 +202,100 @@ WARNING: The following warnings have been detected with resource and/or provider
 2014-12-22 18:32:16,024 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
 2014-12-22 18:33:16,024 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
 2014-12-22 18:34:16,024 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
+2014-12-22 18:35:16,024 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
+2014-12-22 18:36:16,024 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
+2014-12-22 18:37:16,024 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
+2014-12-22 18:38:16,025 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
+2014-12-22 18:39:16,025 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
+2014-12-22 18:40:16,025 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
+2014-12-22 18:41:16,025 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
+2014-12-22 18:42:16,025 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
+2014-12-22 18:43:16,025 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
+2014-12-22 18:44:16,025 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
+2014-12-22 18:45:16,026 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
+2014-12-22 18:46:16,026 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
+2014-12-22 18:47:16,026 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
+2014-12-22 18:48:16,026 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
+2014-12-22 18:49:16,026 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
+2014-12-22 18:50:16,026 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
+2014-12-22 18:51:16,026 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
+2014-12-22 18:52:16,027 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
+2014-12-22 18:53:16,027 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
+2014-12-22 18:54:16,027 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
+2014-12-22 18:55:16,027 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
+2014-12-22 18:56:16,027 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
+2014-12-22 18:57:16,027 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
+2014-12-22 18:58:16,027 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
+2014-12-22 18:59:16,028 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
+2014-12-22 19:00:16,028 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
+2014-12-22 19:01:16,028 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
+2014-12-22 19:02:16,028 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
+2014-12-22 19:03:16,028 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
+2014-12-22 19:04:16,028 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
+2014-12-22 19:05:16,028 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
+2014-12-22 19:06:16,029 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
+2014-12-22 19:07:16,029 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
+2014-12-22 19:08:16,029 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
+2014-12-22 19:09:16,029 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
+2014-12-22 19:10:16,029 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
+2014-12-22 19:11:16,029 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
+2014-12-22 19:12:16,029 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
+2014-12-22 19:13:16,030 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
+2014-12-22 19:14:16,030 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
+2014-12-22 19:15:16,030 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
+2014-12-22 19:16:16,030 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
+2014-12-22 19:17:16,030 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
+2014-12-22 19:18:16,030 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
+2014-12-22 19:19:16,030 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
+2014-12-22 19:20:16,031 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
+2014-12-22 19:21:16,031 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
+2014-12-22 19:22:16,031 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
+2014-12-22 19:23:16,031 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
+2014-12-22 19:24:16,031 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
+2014-12-22 19:25:16,031 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
+2014-12-22 19:26:16,031 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
+2014-12-22 19:27:16,032 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
+2014-12-22 19:27:53,245 INFO [PathChildrenCache-0] io.druid.indexing.overlord.RemoteTaskRunner - Kaboom! Worker[<middlemanager hostname>:8080] removed!
+2014-12-22 19:27:53,246 INFO [PathChildrenCache-0] io.druid.indexing.overlord.RemoteTaskRunner - [<middlemanager hostname>:8080]: Found 0 tasks assigned
+2014-12-22 19:27:58,312 INFO [PathChildrenCache-0] io.druid.indexing.overlord.RemoteTaskRunner - Worker[<middlemanager hostname>:8080] reportin' for duty!
+2014-12-22 19:28:02,921 INFO [PathChildrenCache-0] io.druid.indexing.overlord.RemoteTaskRunner - Kaboom! Worker[<middlemanager hostname>:8080] removed!
+2014-12-22 19:28:02,922 INFO [PathChildrenCache-0] io.druid.indexing.overlord.RemoteTaskRunner - [<middlemanager hostname>:8080]: Found 0 tasks assigned
+2014-12-22 19:28:08,747 INFO [PathChildrenCache-0] io.druid.indexing.overlord.RemoteTaskRunner - Worker[<middlemanager hostname>:8080] reportin' for duty!
+2014-12-22 19:28:16,032 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
+2014-12-22 19:29:16,032 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
+2014-12-22 19:30:16,032 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
+2014-12-22 19:31:16,032 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
+2014-12-22 19:32:16,032 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
+2014-12-22 19:33:16,033 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
+2014-12-22 19:34:16,033 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 0 tasks from storage (0 tasks added, 0 tasks removed).
+2014-12-22 19:34:39,617 INFO [qtp1300576734-34] io.druid.indexing.overlord.HeapMemoryTaskStorage - Inserting task index_outclick_2014-12-22T19:34:39.617Z with status: TaskStatus{id=index_outclick_2014-12-22T19:34:39.617Z, status=RUNNING, duration=-1}
+2014-12-22 19:34:39,618 INFO [TaskQueue-Manager] io.druid.indexing.common.actions.LocalTaskActionClient - Performing action for task[index_outclick_2014-12-22T19:34:39.617Z]: LockTryAcquireAction{interval=2014-04-20T00:00:00.000Z/2014-04-26T00:00:00.000Z}
+2014-12-22 19:34:39,618 INFO [TaskQueue-Manager] io.druid.indexing.overlord.TaskLockbox - Created new TaskLockPosse: TaskLockPosse{taskLock=TaskLock{groupId=index_outclick_2014-12-22T19:34:39.617Z, dataSource=outclick, interval=2014-04-20T00:00:00.000Z/2014-04-26T00:00:00.000Z, version=2014-12-22T19:34:39.618Z}, taskIds=[]}
+2014-12-22 19:34:39,618 INFO [TaskQueue-Manager] io.druid.indexing.overlord.TaskLockbox - Added task[index_outclick_2014-12-22T19:34:39.617Z] to TaskLock[index_outclick_2014-12-22T19:34:39.617Z]
+2014-12-22 19:34:39,618 INFO [TaskQueue-Manager] io.druid.indexing.overlord.TaskQueue - Asking taskRunner to run: index_outclick_2014-12-22T19:34:39.617Z
+2014-12-22 19:34:39,618 INFO [TaskQueue-Manager] io.druid.indexing.overlord.RemoteTaskRunner - Added pending task index_outclick_2014-12-22T19:34:39.617Z
+2014-12-22 19:34:39,619 INFO [pool-11-thread-1] io.druid.indexing.overlord.RemoteTaskRunner - Coordinator asking Worker[<middlemanager hostname>:8080] to add task[index_outclick_2014-12-22T19:34:39.617Z]
+2014-12-22 19:34:39,631 INFO [pool-11-thread-1] io.druid.indexing.overlord.RemoteTaskRunner - Task index_outclick_2014-12-22T19:34:39.617Z switched from pending to running (on [<middlemanager hostname>:8080])
+2014-12-22 19:34:39,789 INFO [PathChildrenCache-0] io.druid.indexing.overlord.RemoteTaskRunner - Worker[<middlemanager hostname>:8080] wrote RUNNING status for task: index_outclick_2014-12-22T19:34:39.617Z
+2014-12-22 19:34:43,624 INFO [qtp1300576734-33] com.metamx.http.client.pool.ChannelResourceFactory - Generating: http://<middlemanager hostname>:8080
+2014-12-22 19:34:43,675 INFO [qtp1300576734-33] com.metamx.http.client.pool.ChannelResourceFactory - Generating: http://<middlemanager hostname>:8080
+2014-12-22 19:34:43,676 INFO [qtp1300576734-33] com.metamx.http.client.pool.ChannelResourceFactory - Generating: http://<middlemanager hostname>:8080
+2014-12-22 19:34:43,676 INFO [qtp1300576734-33] com.metamx.http.client.pool.ChannelResourceFactory - Generating: http://<middlemanager hostname>:8080
+2014-12-22 19:34:43,676 INFO [qtp1300576734-33] com.metamx.http.client.pool.ChannelResourceFactory - Generating: http://<middlemanager hostname>:8080
+2014-12-22 19:35:16,033 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 1 tasks from storage (0 tasks added, 0 tasks removed).
+2014-12-22 19:36:16,033 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 1 tasks from storage (0 tasks added, 0 tasks removed).
+2014-12-22 19:37:16,033 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 1 tasks from storage (0 tasks added, 0 tasks removed).
+2014-12-22 19:38:16,033 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 1 tasks from storage (0 tasks added, 0 tasks removed).
+2014-12-22 19:39:16,033 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 1 tasks from storage (0 tasks added, 0 tasks removed).
+2014-12-22 19:40:16,033 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 1 tasks from storage (0 tasks added, 0 tasks removed).
+2014-12-22 19:41:16,034 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 1 tasks from storage (0 tasks added, 0 tasks removed).
+2014-12-22 19:42:16,034 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 1 tasks from storage (0 tasks added, 0 tasks removed).
+2014-12-22 19:43:16,034 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 1 tasks from storage (0 tasks added, 0 tasks removed).
+2014-12-22 19:44:16,034 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 1 tasks from storage (0 tasks added, 0 tasks removed).
+2014-12-22 19:45:16,034 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 1 tasks from storage (0 tasks added, 0 tasks removed).
+2014-12-22 19:46:16,034 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 1 tasks from storage (0 tasks added, 0 tasks removed).
+2014-12-22 19:46:59,894 INFO [qtp1300576734-38] com.metamx.http.client.pool.ChannelResourceFactory - Generating: http://<middlemanager hostname>:8080
+2014-12-22 19:47:16,034 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 1 tasks from storage (0 tasks added, 0 tasks removed).
+2014-12-22 19:48:16,035 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 1 tasks from storage (0 tasks added, 0 tasks removed).
+2014-12-22 19:49:16,035 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 1 tasks from storage (0 tasks added, 0 tasks removed).
+2014-12-22 19:50:16,035 INFO [TaskQueue-StorageSync] io.druid.indexing.overlord.TaskQueue - Synced 1 tasks from storage (0 tasks added, 0 tasks removed).
