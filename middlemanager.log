@@ -1,0 +1,160 @@
+0.388: [GC (Allocation Failure) 0.388: [ParNew: 17472K->2176K(19648K), 0.0067105 secs] 17472K->2783K(63360K), 0.0068093 secs] [Times: user=0.00 sys=0.01, real=0.00 secs] 
+2014-12-22 17:45:13,435 INFO [main] io.druid.guice.PropertiesModule - Loading properties from runtime.properties
+2014-12-22 17:45:13,465 INFO [main] org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.0.1.Final
+0.580: [GC (Allocation Failure) 0.580: [ParNew: 19648K->2175K(19648K), 0.0411638 secs] 20255K->4498K(63360K), 0.0412256 secs] [Times: user=0.13 sys=0.00, real=0.04 secs] 
+0.796: [GC (Allocation Failure) 0.796: [ParNew: 19647K->2175K(19648K), 0.0112979 secs] 21970K->5074K(63360K), 0.0113598 secs] [Times: user=0.05 sys=0.01, real=0.02 secs] 
+0.959: [GC (Allocation Failure) 0.959: [ParNew: 19647K->2106K(19648K), 0.0035010 secs] 22546K->5373K(63360K), 0.0035618 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+2014-12-22 17:45:13,971 INFO [main] io.druid.guice.JsonConfigurator - Loaded class[class io.druid.guice.ExtensionsConfig] from props[druid.extensions.] as [ExtensionsConfig{searchCurrentClassloader=true, coordinates=[io.druid.extensions:druid-s3-extensions:0.6.160], localRepository='/home/druid/.m2/repository', remoteRepositories=[http://repo1.maven.org/maven2/, https://metamx.artifactoryonline.com/metamx/pub-libs-releases-local]}]
+2014-12-22 17:45:14,084 INFO [main] io.druid.initialization.Initialization - Loading extension[io.druid.extensions:druid-s3-extensions:0.6.160] for class[io.druid.cli.CliCommandCreator]
+1.146: [GC (Allocation Failure) 1.146: [ParNew: 19578K->2175K(19648K), 0.0147544 secs] 22845K->6001K(63360K), 0.0148141 secs] [Times: user=0.06 sys=0.00, real=0.01 secs] 
+1.351: [GC (Allocation Failure) 1.351: [ParNew: 19647K->1206K(19648K), 0.0066072 secs] 23473K->5428K(63360K), 0.0066757 secs] [Times: user=0.04 sys=0.00, real=0.01 secs] 
+2014-12-22 17:45:14,395 INFO [main] io.druid.initialization.Initialization - Added URL[file:/home/druid/.m2/repository/io/druid/extensions/druid-s3-extensions/0.6.160/druid-s3-extensions-0.6.160.jar]
+2014-12-22 17:45:14,395 INFO [main] io.druid.initialization.Initialization - Added URL[file:/home/druid/.m2/repository/net/java/dev/jets3t/jets3t/0.9.1/jets3t-0.9.1.jar]
+2014-12-22 17:45:14,395 INFO [main] io.druid.initialization.Initialization - Added URL[file:/home/druid/.m2/repository/commons-codec/commons-codec/1.7/commons-codec-1.7.jar]
+2014-12-22 17:45:14,395 INFO [main] io.druid.initialization.Initialization - Added URL[file:/home/druid/.m2/repository/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13.jar]
+2014-12-22 17:45:14,395 INFO [main] io.druid.initialization.Initialization - Added URL[file:/home/druid/.m2/repository/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13.jar]
+2014-12-22 17:45:14,395 INFO [main] io.druid.initialization.Initialization - Added URL[file:/home/druid/.m2/repository/javax/activation/activation/1.1.1/activation-1.1.1.jar]
+2014-12-22 17:45:14,395 INFO [main] io.druid.initialization.Initialization - Added URL[file:/home/druid/.m2/repository/mx4j/mx4j/3.0.2/mx4j-3.0.2.jar]
+2014-12-22 17:45:14,395 INFO [main] io.druid.initialization.Initialization - Added URL[file:/home/druid/.m2/repository/javax/mail/mail/1.4.7/mail-1.4.7.jar]
+2014-12-22 17:45:14,395 INFO [main] io.druid.initialization.Initialization - Added URL[file:/home/druid/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar]
+2014-12-22 17:45:14,396 INFO [main] io.druid.initialization.Initialization - Added URL[file:/home/druid/.m2/repository/org/bouncycastle/bcprov-jdk15/1.46/bcprov-jdk15-1.46.jar]
+2014-12-22 17:45:14,396 INFO [main] io.druid.initialization.Initialization - Added URL[file:/home/druid/.m2/repository/com/jamesmurty/utils/java-xmlbuilder/0.4/java-xmlbuilder-0.4.jar]
+2014-12-22 17:45:14,396 INFO [main] io.druid.initialization.Initialization - Added URL[file:/home/druid/.m2/repository/com/amazonaws/aws-java-sdk/1.6.0.1/aws-java-sdk-1.6.0.1.jar]
+2014-12-22 17:45:14,396 INFO [main] io.druid.initialization.Initialization - Added URL[file:/home/druid/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.2.3/jackson-core-2.2.3.jar]
+2014-12-22 17:45:14,396 INFO [main] io.druid.initialization.Initialization - Added URL[file:/home/druid/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.2.3/jackson-annotations-2.2.3.jar]
+2014-12-22 17:45:14,396 INFO [main] io.druid.initialization.Initialization - Added URL[file:/home/druid/.m2/repository/org/apache/httpcomponents/httpclient/4.2/httpclient-4.2.jar]
+2014-12-22 17:45:14,396 INFO [main] io.druid.initialization.Initialization - Added URL[file:/home/druid/.m2/repository/org/apache/httpcomponents/httpcore/4.2/httpcore-4.2.jar]
+2014-12-22 17:45:14,396 INFO [main] io.druid.initialization.Initialization - Added URL[file:/home/druid/.m2/repository/com/metamx/emitter/0.2.11/emitter-0.2.11.jar]
+2014-12-22 17:45:14,396 INFO [main] io.druid.initialization.Initialization - Added URL[file:/home/druid/.m2/repository/com/metamx/http-client/0.9.6/http-client-0.9.6.jar]
+2014-12-22 17:45:14,396 INFO [main] io.druid.initialization.Initialization - Added URL[file:/home/druid/.m2/repository/io/netty/netty/3.9.0.Final/netty-3.9.0.Final.jar]
+2014-12-22 17:45:14,397 INFO [main] io.druid.initialization.Initialization - Added URL[file:/home/druid/.m2/repository/log4j/log4j/1.2.16/log4j-1.2.16.jar]
+2014-12-22 17:45:14,397 INFO [main] io.druid.initialization.Initialization - Added URL[file:/home/druid/.m2/repository/com/google/guava/guava/16.0.1/guava-16.0.1.jar]
+2014-12-22 17:45:14,397 INFO [main] io.druid.initialization.Initialization - Added URL[file:/home/druid/.m2/repository/commons-io/commons-io/2.0.1/commons-io-2.0.1.jar]
+1.561: [GC (Allocation Failure) 1.561: [ParNew: 18678K->2098K(19648K), 0.0017290 secs] 22900K->6319K(63360K), 0.0017886 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+2014-12-22 17:45:14,570 INFO [main] io.druid.initialization.Initialization - Loading extension[io.druid.extensions:druid-s3-extensions:0.6.160] for class[io.druid.initialization.DruidModule]
+2014-12-22 17:45:14,634 INFO [main] io.druid.initialization.Initialization - Adding extension module[class io.druid.storage.s3.S3StorageDruidModule] for class[io.druid.initialization.DruidModule]
+2014-12-22 17:45:14,634 INFO [main] io.druid.initialization.Initialization - Adding extension module[class io.druid.firehose.s3.S3FirehoseDruidModule] for class[io.druid.initialization.DruidModule]
+1.759: [GC (Allocation Failure) 1.759: [ParNew: 19570K->2175K(19648K), 0.0062646 secs] 23791K->7386K(63360K), 0.0063281 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+1.961: [GC (Allocation Failure) 1.961: [ParNew: 19647K->1774K(19648K), 0.0148892 secs] 24858K->8348K(63360K), 0.0149521 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+2014-12-22 17:45:14,942 INFO [main] io.druid.guice.JsonConfigurator - Loaded class[class com.metamx.emitter.core.LoggingEmitterConfig] from props[druid.emitter.logging.] as [LoggingEmitterConfig{loggerClass='com.metamx.emitter.core.LoggingEmitter', logLevel='debug'}]
+2014-12-22 17:45:15,007 INFO [main] io.druid.guice.JsonConfigurator - Loaded class[class io.druid.server.metrics.DruidMonitorSchedulerConfig] from props[druid.monitoring.] as [io.druid.server.metrics.DruidMonitorSchedulerConfig@61e3a1fd]
+2014-12-22 17:45:15,031 INFO [main] com.metamx.metrics.SysMonitor - Loading sigar native lib at tmpPath[/tmp/yay2638794192626707295yay/libsigar-amd64-linux.so]
+2014-12-22 17:45:15,034 INFO [main] io.druid.guice.JsonConfigurator - Loaded class[class io.druid.server.metrics.MonitorsConfig] from props[druid.monitoring.] as [MonitorsConfig{monitors=[class com.metamx.metrics.SysMonitor, class com.metamx.metrics.JvmMonitor]}]
+2014-12-22 17:45:15,052 INFO [main] io.druid.guice.JsonConfigurator - Loaded class[class io.druid.server.DruidNode] from props[druid.] as [DruidNode{serviceName='druid-middlemanager', host='<middlemanager hostname>:8080', port=8080}]
+2014-12-22 17:45:15,061 INFO [main] io.druid.server.metrics.MetricsModule - Adding monitor[com.metamx.metrics.SysMonitor@169da7f2]
+2014-12-22 17:45:15,062 INFO [main] io.druid.server.metrics.MetricsModule - Adding monitor[com.metamx.metrics.JvmMonitor@60297f36]
+2014-12-22 17:45:15,113 INFO [main] org.skife.config.ConfigurationObjectFactory - Assigning value [<zookeeper 1 hostname>,<zookeeper 2 hostname>,<zookeeper 3 hostname>] for [druid.zk.service.host] on [io.druid.curator.CuratorConfig
+2014-12-22 17:45:15,115 INFO [main] org.skife.config.ConfigurationObjectFactory - Assigning default value [30000] for [druid.zk.service.sessionTimeoutMs] on [io.druid.curator.CuratorConfig
+2014-12-22 17:45:15,115 INFO [main] org.skife.config.ConfigurationObjectFactory - Assigning default value [false] for [druid.curator.compress] on [io.druid.curator.CuratorConfig
+2.211: [GC (Allocation Failure) 2.211: [ParNew: 19246K->2175K(19648K), 0.0166625 secs] 25820K->9772K(63360K), 0.0167276 secs] [Times: user=0.09 sys=0.00, real=0.02 secs] 
+2.228: [GC (CMS Initial Mark) [1 CMS-initial-mark: 7596K(43712K)] 9772K(63360K), 0.0007762 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+2.229: [CMS-concurrent-mark-start]
+2014-12-22 17:45:15,205 WARN [main] org.apache.curator.retry.ExponentialBackoffRetry - maxRetries too large (30). Pinning to 29
+2.241: [CMS-concurrent-mark: 0.011/0.012 secs] [Times: user=0.04 sys=0.01, real=0.01 secs] 
+2.241: [CMS-concurrent-preclean-start]
+2.241: [CMS-concurrent-preclean: 0.000/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2.241: [GC (CMS Final Remark) [YG occupancy: 3220 K (19648 K)]2.241: [Rescan (parallel) , 0.0011078 secs]2.243: [weak refs processing, 0.0000441 secs]2.243: [class unloading, 0.0079810 secs]2.251: [scrub symbol table, 0.0019352 secs]2.253: [scrub string table, 0.0004271 secs][1 CMS-remark: 7596K(43712K)] 10816K(63360K), 0.0129805 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+2.255: [CMS-concurrent-sweep-start]
+2.258: [CMS-concurrent-sweep: 0.003/0.003 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+2.258: [CMS-concurrent-reset-start]
+2.258: [CMS-concurrent-reset: 0.000/0.000 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+2014-12-22 17:45:15,265 INFO [main] org.skife.config.ConfigurationObjectFactory - Using method itself for [druid.zk.paths.liveSegmentsPath] on [io.druid.server.initialization.ZkPathsConfig
+2014-12-22 17:45:15,265 INFO [main] org.skife.config.ConfigurationObjectFactory - Using method itself for [druid.zk.paths.loadQueuePath] on [io.druid.server.initialization.ZkPathsConfig
+2014-12-22 17:45:15,266 INFO [main] org.skife.config.ConfigurationObjectFactory - Using method itself for [druid.zk.paths.announcementsPath] on [io.druid.server.initialization.ZkPathsConfig
+2014-12-22 17:45:15,266 INFO [main] org.skife.config.ConfigurationObjectFactory - Using method itself for [druid.zk.paths.servedSegmentsPath] on [io.druid.server.initialization.ZkPathsConfig
+2014-12-22 17:45:15,266 INFO [main] org.skife.config.ConfigurationObjectFactory - Using method itself for [druid.zk.paths.base] on [io.druid.server.initialization.ZkPathsConfig
+2014-12-22 17:45:15,266 INFO [main] org.skife.config.ConfigurationObjectFactory - Using method itself for [druid.zk.paths.coordinatorPath] on [io.druid.server.initialization.ZkPathsConfig
+2014-12-22 17:45:15,266 INFO [main] org.skife.config.ConfigurationObjectFactory - Using method itself for [druid.zk.paths.indexer.announcementsPath] on [io.druid.server.initialization.ZkPathsConfig
+2014-12-22 17:45:15,266 INFO [main] org.skife.config.ConfigurationObjectFactory - Using method itself for [druid.zk.paths.propertiesPath] on [io.druid.server.initialization.ZkPathsConfig
+2014-12-22 17:45:15,266 INFO [main] org.skife.config.ConfigurationObjectFactory - Using method itself for [druid.zk.paths.connectorPath] on [io.druid.server.initialization.ZkPathsConfig
+2014-12-22 17:45:15,266 INFO [main] org.skife.config.ConfigurationObjectFactory - Using method itself for [druid.zk.paths.indexer.tasksPath] on [io.druid.server.initialization.ZkPathsConfig
+2014-12-22 17:45:15,267 INFO [main] org.skife.config.ConfigurationObjectFactory - Using method itself for [druid.zk.paths.indexer.statusPath] on [io.druid.server.initialization.ZkPathsConfig
+2014-12-22 17:45:15,267 INFO [main] org.skife.config.ConfigurationObjectFactory - Using method itself for [druid.zk.paths.indexer.leaderLatchPath] on [io.druid.server.initialization.ZkPathsConfig
+2014-12-22 17:45:15,282 INFO [main] io.druid.guice.JsonConfigurator - Loaded class[class io.druid.indexing.overlord.config.RemoteTaskRunnerConfig] from props[druid.indexer.runner.] as [io.druid.indexing.overlord.config.RemoteTaskRunnerConfig@57bd802b]
+2014-12-22 17:45:15,288 INFO [main] io.druid.guice.JsonConfigurator - Loaded class[class io.druid.indexing.worker.config.WorkerConfig] from props[druid.worker.] as [io.druid.indexing.worker.config.WorkerConfig@7808fb9]
+2014-12-22 17:45:15,318 INFO [main] io.druid.guice.JsonConfigurator - Loaded class[class io.druid.indexing.overlord.config.ForkingTaskRunnerConfig] from props[druid.indexer.runner.] as [io.druid.indexing.overlord.config.ForkingTaskRunnerConfig@59712875]
+2014-12-22 17:45:15,328 INFO [main] io.druid.guice.JsonConfigurator - Loaded class[class io.druid.indexing.common.config.TaskConfig] from props[druid.indexer.task.] as [io.druid.indexing.common.config.TaskConfig@66bfd864]
+2014-12-22 17:45:15,332 INFO [main] io.druid.guice.JsonConfigurator - Loaded class[class io.druid.storage.s3.S3TaskLogsConfig] from props[druid.indexer.logs.] as [io.druid.storage.s3.S3TaskLogsConfig@7051777c]
+2014-12-22 17:45:15,336 INFO [main] io.druid.guice.JsonConfigurator - Loaded class[class io.druid.storage.s3.AWSCredentialsConfig] from props[druid.s3.] as [io.druid.storage.s3.AWSCredentialsConfig@6a4d7f76]
+2.431: [GC (Allocation Failure) 2.431: [ParNew: 19647K->2176K(19648K), 0.0033929 secs] 25174K->8908K(63360K), 0.0034582 secs] [Times: user=0.02 sys=0.00, real=0.00 secs] 
+2014-12-22 17:45:15,425 INFO [main] io.druid.guice.JsonConfigurator - Loaded class[class io.druid.server.initialization.ServerConfig] from props[druid.server.http.] as [io.druid.server.initialization.ServerConfig@3e850122]
+2014-12-22 17:45:15,430 INFO [main] org.eclipse.jetty.util.log - Logging initialized @2463ms
+2014-12-22 17:45:15,502 INFO [main] com.metamx.common.lifecycle.Lifecycle$AnnotationBasedHandler - Invoking start method[public void com.metamx.emitter.core.LoggingEmitter.start()] on object[com.metamx.emitter.core.LoggingEmitter@2822c6ff].
+2014-12-22 17:45:15,502 INFO [main] com.metamx.common.lifecycle.Lifecycle$AnnotationBasedHandler - Invoking start method[public void com.metamx.emitter.service.ServiceEmitter.start()] on object[com.metamx.emitter.service.ServiceEmitter@4ed38226].
+2014-12-22 17:45:15,503 INFO [main] com.metamx.common.lifecycle.Lifecycle$AnnotationBasedHandler - Invoking start method[public void com.metamx.metrics.MonitorScheduler.start()] on object[com.metamx.metrics.MonitorScheduler@3d43fe].
+2014-12-22 17:45:15,505 INFO [main] io.druid.curator.CuratorModule - Starting Curator
+2014-12-22 17:45:15,505 INFO [main] org.apache.curator.framework.imps.CuratorFrameworkImpl - Starting
+2014-12-22 17:45:15,513 INFO [main] org.apache.zookeeper.ZooKeeper - Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+2014-12-22 17:45:15,513 INFO [main] org.apache.zookeeper.ZooKeeper - Client environment:host.name=<middlemanager hostname>
+2014-12-22 17:45:15,513 INFO [main] org.apache.zookeeper.ZooKeeper - Client environment:java.version=1.8.0_20
+2014-12-22 17:45:15,513 INFO [main] org.apache.zookeeper.ZooKeeper - Client environment:java.vendor=Oracle Corporation
+2014-12-22 17:45:15,513 INFO [main] org.apache.zookeeper.ZooKeeper - Client environment:java.home=/usr/java/jdk1.8.0_20/jre
+2014-12-22 17:45:15,513 INFO [main] org.apache.zookeeper.ZooKeeper - Client environment:java.class.path=/usr/local/druid-services/lib/jackson-jaxrs-json-provider-2.2.3.jar:/usr/local/druid-services/lib/icu4j-4.8.1.jar:/usr/local/druid-services/lib/tesla-aether-0.0.5.jar:/usr/local/druid-services/lib/google-http-client-1.15.0-rc.jar:/usr/local/druid-services/lib/maven-settings-builder-3.1.1.jar:/usr/local/druid-services/lib/asm-3.1.jar:/usr/local/druid-services/lib/aopalliance-1.0.jar:/usr/local/druid-services/lib/curator-client-2.6.0.jar:/usr/local/druid-services/lib/irc-api-1.0-0011.jar:/usr/local/druid-services/lib/okhttp-1.0.2.jar:/usr/local/druid-services/lib/curator-recipes-2.6.0.jar:/usr/local/druid-services/lib/maven-repository-metadata-3.1.1.jar:/usr/local/druid-services/lib/maven-model-builder-3.1.1.jar:/usr/local/druid-services/lib/bcprov-jdk15-1.46.jar:/usr/local/druid-services/lib/jetty-io-9.2.3.v20140905.jar:/usr/local/druid-services/lib/plexus-interpolation-1.19.jar:/usr/local/druid-services/lib/jetty-proxy-9.2.3.v20140905.jar:/usr/local/druid-services/lib/maven-settings-3.1.1.jar:/usr/local/druid-services/lib/aether-impl-0.9.0.M2.jar:/usr/local/druid-services/lib/server-metrics-0.0.9.jar:/usr/local/druid-services/lib/wagon-provider-api-2.4.jar:/usr/local/druid-services/lib/commons-cli-1.2.jar:/usr/local/druid-services/lib/mysql-connector-java-5.1.18.jar:/usr/local/druid-services/lib/alphanum-1.0.3.jar:/usr/local/druid-services/lib/maven-aether-provider-3.1.1.jar:/usr/local/druid-services/lib/java-util-0.26.9.jar:/usr/local/druid-services/lib/zookeeper-3.4.6.jar:/usr/local/druid-services/lib/mail-1.4.7.jar:/usr/local/druid-services/lib/guice-multibindings-4.0-beta.jar:/usr/local/druid-services/lib/jackson-module-jaxb-annotations-2.2.3.jar:/usr/local/druid-services/lib/xpp3-1.1.4c.jar:/usr/local/druid-services/lib/druid-processing-0.6.160.jar:/usr/local/druid-services/lib/jetty-servlets-9.2.3.v20140905.jar:/usr/local/druid-services/lib/spymemcached-2.8.4.jar:/usr/local/druid-services/lib/jersey-guice-1.17.1.jar:/usr/local/druid-services/lib/druid-indexing-hadoop-0.6.160.jar:/usr/local/druid-services/lib/jersey-core-1.17.1.jar:/usr/local/druid-services/lib/hibernate-validator-5.0.1.Final.jar:/usr/local/druid-services/lib/jackson-core-asl-1.9.13.jar:/usr/local/druid-services/lib/commons-pool-1.6.jar:/usr/local/druid-services/lib/compress-lzf-0.8.4.jar:/usr/local/druid-services/lib/validation-api-1.1.0.Final.jar:/usr/local/druid-services/lib/jackson-mapper-asl-1.9.13.jar:/usr/local/druid-services/lib/slf4j-api-1.6.4.jar:/usr/local/druid-services/lib/protobuf-java-2.5.0.jar:/usr/local/druid-services/lib/aether-api-0.9.0.M2.jar:/usr/local/druid-services/lib/jersey-servlet-1.17.1.jar:/usr/local/druid-services/lib/jackson-datatype-joda-2.2.3.jar:/usr/local/druid-services/lib/jackson-datatype-guava-2.2.3.jar:/usr/local/druid-services/lib/httpcore-4.2.jar:/usr/local/druid-services/lib/jetty-continuation-9.2.3.v20140905.jar:/usr/local/druid-services/lib/bytebuffer-collections-0.0.4.jar:/usr/local/druid-services/lib/sigar-1.6.5.132.jar:/usr/local/druid-services/lib/netty-3.9.0.Final.jar:/usr/local/druid-services/lib/jetty-security-9.2.3.v20140905.jar:/usr/local/druid-services/lib/jetty-http-9.2.3.v20140905.jar:/usr/local/druid-services/lib/rhino-1.7R4.jar:/usr/local/druid-services/lib/guice-4.0-beta.jar:/usr/local/druid-services/lib/jackson-databind-2.2.3.jar:/usr/local/druid-services/lib/google-http-client-jackson2-1.15.0-rc.jar:/usr/local/druid-services/lib/jackson-dataformat-smile-2.2.3.jar:/usr/local/druid-services/lib/org.abego.treelayout.core-1.0.1.jar:/usr/local/druid-services/lib/jline-0.9.94.jar:/usr/local/druid-services/lib/commons-logging-1.1.1.jar:/usr/local/druid-services/lib/druid-api-0.2.14.1.jar:/usr/local/druid-services/lib/maxminddb-0.2.0.jar:/usr/local/druid-services/lib/http-client-0.9.6.jar:/usr/local/druid-services/lib/jetty-util-9.2.3.v20140905.jar:/usr/local/druid-services/lib/druid-services-0.6.160.jar:/usr/local/druid-services/lib/commons-codec-1.7.jar:/usr/local/druid-services/lib/aether-spi-0.9.0.M2.jar:/usr/local/druid-services/lib/jetty-server-9.2.3.v20140905.jar:/usr/local/druid-services/lib/activation-1.1.1.jar:/usr/local/druid-services/lib/guava-16.0.1.jar:/usr/local/druid-services/lib/classmate-0.8.0.jar:/usr/local/druid-services/lib/geoip2-0.4.0.jar:/usr/local/druid-services/lib/log4j-1.2.16.jar:/usr/local/druid-services/lib/extendedset-1.3.7.jar:/usr/local/druid-services/lib/druid-indexing-service-0.6.160.jar:/usr/local/druid-services/lib/jdbi-2.32.jar:/usr/local/druid-services/lib/guice-servlet-4.0-beta.jar:/usr/local/druid-services/lib/jackson-jaxrs-smile-provider-2.2.3.jar:/usr/local/druid-services/lib/config-magic-0.9.jar:/usr/local/druid-services/lib/lz4-1.1.2.jar:/usr/local/druid-services/lib/httpclient-4.2.jar:/usr/local/druid-services/lib/commons-io-2.0.1.jar:/usr/local/druid-services/lib/java-xmlbuilder-0.4.jar:/usr/local/druid-services/lib/jetty-client-9.2.3.v20140905.jar:/usr/local/druid-services/lib/curator-x-discovery-2.6.0.jar:/usr/local/druid-services/lib/druid-common-0.6.160.jar:/usr/local/druid-services/lib/javax.inject-1.jar:/usr/local/druid-services/lib/jsr305-2.0.1.jar:/usr/local/druid-services/lib/druid-server-0.6.160.jar:/usr/local/druid-services/lib/aether-connector-file-0.9.0.M2.jar:/usr/local/druid-services/lib/aether-util-0.9.0.M2.jar:/usr/local/druid-services/lib/slf4j-log4j12-1.6.2.jar:/usr/local/druid-services/lib/aws-java-sdk-1.6.0.1.jar:/usr/local/druid-services/lib/airline-0.6.jar:/usr/local/druid-services/lib/javax.servlet-api-3.1.0.jar:/usr/local/druid-services/lib/opencsv-2.3.jar:/usr/local/druid-services/lib/mx4j-3.0.2.jar:/usr/local/druid-services/lib/aether-connector-okhttp-0.0.9.jar:/usr/local/druid-services/lib/jackson-core-2.2.3.jar:/usr/local/druid-services/lib/javax.el-3.0.0.jar:/usr/local/druid-services/lib/jersey-server-1.17.1.jar:/usr/local/druid-services/lib/maven-model-3.1.1.jar:/usr/local/druid-services/lib/emitter-0.2.11.jar:/usr/local/druid-services/lib/jackson-jaxrs-base-2.2.3.jar:/usr/local/druid-services/lib/plexus-utils-3.0.15.jar:/usr/local/druid-services/lib/jboss-logging-3.1.1.GA.jar:/usr/local/druid-services/lib/jets3t-0.9.1.jar:/usr/local/druid-services/lib/antlr4-runtime-4.0.jar:/usr/local/druid-services/lib/jackson-annotations-2.2.3.jar:/usr/local/druid-services/lib/joda-time-2.1.jar:/usr/local/druid-services/lib/jetty-servlet-9.2.3.v20140905.jar:/usr/local/druid-services/lib/curator-framework-2.6.0.jar:/usr/local/druid-services/lib/commons-dbcp-1.4.jar:/usr/local/druid-services/lib/commons-lang-2.6.jar:/usr/local/druid-services/config/middlemanager
+2014-12-22 17:45:15,514 INFO [main] org.apache.zookeeper.ZooKeeper - Client environment:java.library.path=/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+2014-12-22 17:45:15,514 INFO [main] org.apache.zookeeper.ZooKeeper - Client environment:java.io.tmpdir=/tmp
+2014-12-22 17:45:15,514 INFO [main] org.apache.zookeeper.ZooKeeper - Client environment:java.compiler=<NA>
+2014-12-22 17:45:15,514 INFO [main] org.apache.zookeeper.ZooKeeper - Client environment:os.name=Linux
+2014-12-22 17:45:15,514 INFO [main] org.apache.zookeeper.ZooKeeper - Client environment:os.arch=amd64
+2014-12-22 17:45:15,514 INFO [main] org.apache.zookeeper.ZooKeeper - Client environment:os.version=2.6.32-5-xen-amd64
+2014-12-22 17:45:15,514 INFO [main] org.apache.zookeeper.ZooKeeper - Client environment:user.name=druid
+2014-12-22 17:45:15,514 INFO [main] org.apache.zookeeper.ZooKeeper - Client environment:user.home=/home/druid
+2014-12-22 17:45:15,514 INFO [main] org.apache.zookeeper.ZooKeeper - Client environment:user.dir=/
+2014-12-22 17:45:15,514 INFO [main] org.apache.zookeeper.ZooKeeper - Initiating client connection, connectString=<zookeeper 1 hostname>,<zookeeper 2 hostname>,<zookeeper 3 hostname> sessionTimeout=30000 watcher=org.apache.curator.ConnectionState@451f87af
+2014-12-22 17:45:15,531 INFO [main] com.metamx.common.lifecycle.Lifecycle$AnnotationBasedHandler - Invoking start method[public void io.druid.indexing.worker.WorkerCuratorCoordinator.start() throws java.lang.Exception] on object[io.druid.indexing.worker.WorkerCuratorCoordinator@6dcd5639].
+2014-12-22 17:45:15,532 INFO [main] io.druid.indexing.worker.WorkerCuratorCoordinator - WorkerCuratorCoordinator good to go sir. Server[<middlemanager hostname>:8080]
+2014-12-22 17:45:15,535 INFO [main-SendThread(<zookeeper 3 hostname>:2181)] org.apache.zookeeper.ClientCnxn - Opening socket connection to server <zookeeper 3 hostname>/10.28.200.215:2181. Will not attempt to authenticate using SASL (unknown error)
+2014-12-22 17:45:15,586 INFO [main-SendThread(<zookeeper 3 hostname>:2181)] org.apache.zookeeper.ClientCnxn - Socket connection established to <zookeeper 3 hostname>/10.28.200.215:2181, initiating session
+2014-12-22 17:45:15,595 INFO [main-SendThread(<zookeeper 3 hostname>:2181)] org.apache.zookeeper.ClientCnxn - Session establishment complete on server <zookeeper 3 hostname>/10.28.200.215:2181, sessionid = 0x34a649c0d0c000b, negotiated timeout = 30000
+2014-12-22 17:45:15,601 INFO [main-EventThread] org.apache.curator.framework.state.ConnectionStateManager - State change: CONNECTED
+3.682: [GC (Allocation Failure) 3.682: [ParNew: 19648K->2175K(19648K), 0.0051175 secs] 26380K->10887K(63360K), 0.0051803 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+2014-12-22 17:45:16,657 INFO [main] com.metamx.common.lifecycle.Lifecycle$AnnotationBasedHandler - Invoking start method[public void io.druid.indexing.worker.WorkerTaskMonitor.start()] on object[io.druid.indexing.worker.WorkerTaskMonitor@79d743e6].
+2014-12-22 17:45:16,660 INFO [main] org.eclipse.jetty.server.Server - jetty-9.2.3.v20140905
+Dec 22, 2014 5:45:16 PM com.sun.jersey.guice.spi.container.GuiceComponentProviderFactory register
+INFO: Registering com.fasterxml.jackson.jaxrs.json.JacksonJsonProvider as a provider class
+Dec 22, 2014 5:45:16 PM com.sun.jersey.guice.spi.container.GuiceComponentProviderFactory register
+INFO: Registering io.druid.server.StatusResource as a root resource class
+Dec 22, 2014 5:45:16 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+3.857: [GC (Allocation Failure) 3.857: [ParNew: 19647K->1839K(19648K), 0.0035289 secs] 28359K->11232K(63360K), 0.0035926 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+Dec 22, 2014 5:45:16 PM com.sun.jersey.guice.spi.container.GuiceComponentProviderFactory getComponentProvider
+INFO: Binding com.fasterxml.jackson.jaxrs.json.JacksonJsonProvider to GuiceManagedComponentProvider with the scope "Singleton"
+4.016: [GC (Allocation Failure) 4.016: [ParNew: 19311K->1326K(19648K), 0.0025127 secs] 28704K->11274K(63360K), 0.0025785 secs] [Times: user=0.02 sys=0.00, real=0.00 secs] 
+Dec 22, 2014 5:45:17 PM com.sun.jersey.guice.spi.container.GuiceComponentProviderFactory getComponentProvider
+INFO: Binding io.druid.indexing.worker.http.WorkerResource to GuiceInstantiatedComponentProvider
+Dec 22, 2014 5:45:17 PM com.sun.jersey.guice.spi.container.GuiceComponentProviderFactory getComponentProvider
+INFO: Binding io.druid.server.StatusResource to GuiceManagedComponentProvider with the scope "Undefined"
+4.230: [GC (Allocation Failure) 4.230: [ParNew: 18798K->1842K(19648K), 0.0106307 secs] 28746K->11790K(63360K), 0.0106878 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+2014-12-22 17:45:17,211 INFO [main] org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@673919a7{/,null,AVAILABLE}
+2014-12-22 17:45:17,218 INFO [main] org.eclipse.jetty.server.ServerConnector - Started ServerConnector@8ab3d90{HTTP/1.1}{0.0.0.0:8080}
+2014-12-22 17:45:17,219 INFO [main] org.eclipse.jetty.server.Server - Started @4253ms
+2014-12-22 17:48:55,960 INFO [TaskMonitorCache-0] io.druid.indexing.worker.WorkerTaskMonitor - Submitting runnable for task[index_outclick_2014-12-22T17:48:55.794Z]
+2014-12-22 17:48:55,961 INFO [WorkerTaskMonitor-0] io.druid.indexing.worker.WorkerTaskMonitor - Affirmative. Running task [index_outclick_2014-12-22T17:48:55.794Z]
+2014-12-22 17:48:55,983 INFO [pool-4-thread-1] io.druid.indexing.overlord.ForkingTaskRunner - Exception caught during execution
+java.io.IOException: Could not create directories: /persistent/index_outclick_2014-12-22T17:48:55.794Z/4d65a150-6c39-4422-ae7d-62b794bc57f9
+	at io.druid.indexing.overlord.ForkingTaskRunner$1.call(ForkingTaskRunner.java:136)
+	at io.druid.indexing.overlord.ForkingTaskRunner$1.call(ForkingTaskRunner.java:122)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2014-12-22 17:48:55,985 INFO [pool-4-thread-1] io.druid.indexing.overlord.ForkingTaskRunner - Removing temporary directory: /persistent/index_outclick_2014-12-22T17:48:55.794Z/4d65a150-6c39-4422-ae7d-62b794bc57f9
+2014-12-22 17:48:55,992 ERROR [WorkerTaskMonitor-0] io.druid.indexing.worker.WorkerTaskMonitor - I can't build there. Failed to run task: {class=io.druid.indexing.worker.WorkerTaskMonitor, exceptionType=class java.util.concurrent.ExecutionException, exceptionMessage=java.lang.RuntimeException: java.io.IOException: Could not create directories: /persistent/index_outclick_2014-12-22T17:48:55.794Z/4d65a150-6c39-4422-ae7d-62b794bc57f9, task=index_outclick_2014-12-22T17:48:55.794Z}
+java.util.concurrent.ExecutionException: java.lang.RuntimeException: java.io.IOException: Could not create directories: /persistent/index_outclick_2014-12-22T17:48:55.794Z/4d65a150-6c39-4422-ae7d-62b794bc57f9
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192)
+	at io.druid.indexing.worker.WorkerTaskMonitor$1$1.run(WorkerTaskMonitor.java:133)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.RuntimeException: java.io.IOException: Could not create directories: /persistent/index_outclick_2014-12-22T17:48:55.794Z/4d65a150-6c39-4422-ae7d-62b794bc57f9
+	at com.google.common.base.Throwables.propagate(Throwables.java:160)
+	at io.druid.indexing.overlord.ForkingTaskRunner$1.call(ForkingTaskRunner.java:266)
+	at io.druid.indexing.overlord.ForkingTaskRunner$1.call(ForkingTaskRunner.java:122)
+	... 4 more
+Caused by: java.io.IOException: Could not create directories: /persistent/index_outclick_2014-12-22T17:48:55.794Z/4d65a150-6c39-4422-ae7d-62b794bc57f9
+	at io.druid.indexing.overlord.ForkingTaskRunner$1.call(ForkingTaskRunner.java:136)
+	... 5 more
+2014-12-22 17:48:56,006 INFO [WorkerTaskMonitor-0] io.druid.indexing.worker.WorkerTaskMonitor - Job's finished. Completed [index_outclick_2014-12-22T17:48:55.794Z] with status [FAILED]
+843.710: [GC (Allocation Failure) 843.710: [ParNew: 19314K->2175K(19648K), 0.0119006 secs] 29262K->13529K(63360K), 0.0119794 secs] [Times: user=0.04 sys=0.00, real=0.01 secs] 
